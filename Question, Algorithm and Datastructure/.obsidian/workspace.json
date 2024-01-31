@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "ef422cb2b31ea579",
+    "type": "split",
+    "children": [
+      {
+        "id": "eea3930a0497a4ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fc0ed716e0212a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions/前缀和问题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2217f6d6e11884f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0c510438ec83f3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2aa65d75fa7daa2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9f90c4f0e541cc91",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "618b6f0deb4cebcf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 283.5
+  },
+  "right": {
+    "id": "89ba1907fdc4a3a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ad89cc941bde86b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97457d1b4c9b0dbe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Questions/前缀和问题.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c02bc5f65d3b8a40",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Questions/前缀和问题.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f7836872b87a17a0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Questions/前缀和问题.md"
+              }
+            }
+          },
+          {
+            "id": "f2257fb55d3fae2e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a2aa65d75fa7daa2",
+  "lastOpenFiles": [
+    "Algorithm and DataStructure/前缀和问题求解.md",
+    "Questions/前缀和问题.md",
+    "C++STL/numeric.md",
+    "Untitled",
+    "C++STL",
+    "Algorithm and DataStructure",
+    "Questions",
+    "Welcome.md",
+    "create a link.md"
+  ]
+}

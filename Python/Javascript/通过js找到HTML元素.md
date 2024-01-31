@@ -1,0 +1,20 @@
+- `getElementById(str:<elem_id>)` 
+- `getElementsByTagName(str:<tag_name>) -> Array`
+``` HTML
+<p> Hello World</p>  // x[0]
+
+<script>
+var x = document.getElementsByTagName("p")
+</script>
+```
+- `getElementsByClassName(str:<cls_name>) -> Array`
+``` HTML
+<p class="test"> 你好，世界</p>    // x[0]
+<p class="test"> Hello World</p>    //x[1]
+
+<script>
+var x = document.getElementsByClassName("test")
+
+</script>
+```
+- `document.forms[<form_id>][<elem_id>]`,该方法通过forms数组获取表单中的元素

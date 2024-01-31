@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "41c9ac516a7a90c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "622ad49ff4de3579",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f537a755025c4bb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/linux 基本知识.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "31528fbf69769597",
+    "type": "split",
+    "children": [
+      {
+        "id": "69d9bfc865ebfe9a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf88129906e6a307",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cbdc2067acdd170e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "01f787a2c6e88d91",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 276.5
+  },
+  "right": {
+    "id": "13dd52ef366bcc60",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ddf8548dccf0bcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dd9c5a19df92c88",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "linux/linux 基本知识.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "780e1643ebefa0f1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "linux/linux 基本知识.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b0c5c622c5b8f167",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ef9d6c7af2d8b33b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "linux/linux 基本知识.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f537a755025c4bb6",
+  "lastOpenFiles": [
+    "PowerShell.md",
+    "程序设计语言/c与c++/printf格式化输出简单总结.md",
+    "mysql语句速查.md",
+    "OpenAI Keys.md",
+    "linux/kali渗透测试.md",
+    "linux/linux 基本知识.md",
+    "机器学习/百分位数.md",
+    "测试笔记/浅谈图片像素_分辨率.md",
+    "_resources/c8692bc6d7dde3e24783c04ede40099b.png",
+    "_resources/5da2c2750915f002d140f1379a26ef88.png",
+    "0f36f30c-8ddc-4449-9438-3576cda1a814.png",
+    "0f36f30c-8ddc-4449-9438-3576cda1a814 1.png",
+    "_resources",
+    "程序设计语言/python/matplot.md",
+    "程序设计语言/python/numpy.md",
+    "程序设计语言/python/舍入误差.md",
+    "程序设计语言/python/pandas 库常用函数.md",
+    "程序设计语言/c与c++/无符号数的溢出自动取模.md",
+    "程序设计语言/c与c++/测试.md",
+    "程序设计语言/c与c++/优先队列中仿函数的理解.md",
+    "程序设计语言/c与c++/cin 输入.md",
+    "Linux基本知识.md",
+    "create a link.md",
+    "测试笔记/银行关系整理.md",
+    "_resources/SubNotebooks.png",
+    "_resources/WebClipper.png",
+    "Welcome.md",
+    "_resources/AllClients.png",
+    "NoteBook/test02.md",
+    "NoteBook/test01.md",
+    "测试笔记/ip地址.md",
+    "测试笔记/欢迎！/1. Welcome to Joplin!.md",
+    "测试笔记/欢迎！/2. Importing and exporting notes.md",
+    "NoteBook",
+    "linux",
+    "程序设计语言/python",
+    "程序设计语言/c与c++",
+    "程序设计语言",
+    "机器学习",
+    "测试笔记/欢迎！",
+    "测试笔记",
+    "未命名"
+  ]
+}
