@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mysql语句速查.md",
+                "file": "Windows自动化/PowerShell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae2eba1e33ca0785",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows自动化/Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mysql语句速查.md",
+                "file": "Windows自动化/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mysql语句速查.md",
+                "file": "Windows自动化/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mysql语句速查.md"
+                "file": "Windows自动化/Untitled.md"
               }
             }
           }
@@ -149,8 +162,10 @@
   },
   "active": "bf88129906e6a307",
   "lastOpenFiles": [
+    "Windows自动化/PowerShell.md",
+    "Windows自动化/Untitled.md",
+    "Windows自动化",
     "OpenAI Keys.md",
-    "PowerShell.md",
     "mysql语句速查.md",
     "程序设计语言/c与c++/printf格式化输出简单总结.md",
     "linux/kali渗透测试.md",
@@ -189,7 +204,6 @@
     "程序设计语言",
     "机器学习",
     "测试笔记/欢迎！",
-    "测试笔记",
-    "未命名"
+    "测试笔记"
   ]
 }
