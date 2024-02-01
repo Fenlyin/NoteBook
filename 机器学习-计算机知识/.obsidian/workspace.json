@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/linux 基本知识.md",
+                "file": "mysql语句速查.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/linux 基本知识.md",
+                "file": "mysql语句速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/linux 基本知识.md",
+                "file": "mysql语句速查.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/linux 基本知识.md"
+                "file": "mysql语句速查.md"
               }
             }
           }
@@ -147,12 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f537a755025c4bb6",
+  "active": "bf88129906e6a307",
   "lastOpenFiles": [
-    "PowerShell.md",
-    "程序设计语言/c与c++/printf格式化输出简单总结.md",
-    "mysql语句速查.md",
     "OpenAI Keys.md",
+    "PowerShell.md",
+    "mysql语句速查.md",
+    "程序设计语言/c与c++/printf格式化输出简单总结.md",
     "linux/kali渗透测试.md",
     "linux/linux 基本知识.md",
     "机器学习/百分位数.md",

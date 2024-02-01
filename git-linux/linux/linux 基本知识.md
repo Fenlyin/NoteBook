@@ -1,16 +1,3 @@
-## linux加速访问github
-
-- 镜像代理
-    - eg. “git clone https://mirror.ghproxy.com/https://github.com/Fenlyin/MihoyoBBSTools.git”
-- 常用的镜像网站：
-    1.  https://mirror.ghproxy.com/
-    2.  https://gitclone.com/
-    3.  https://cnpmjs.org/
-    4.  https://shrill-pond-3e81.hunsh.workers.dev/
-    5.  https://fastgit.org/
-
-
-
 ## linux用户管理
 
  	linux用户管理主要设计到两个文件：1. /etc/passwd 2. /etc/group。其中，paaswd存储的是用户相关的信息，一行存储一个用户，每行有7个字段。group存储的是组信息，一行一组，每行四个字段。
@@ -162,7 +149,7 @@
 ### 基于密钥对的连接
 
 - 私钥放在客户端，公钥放在服务端，密钥对生成后便是用户无关的了，比如我用用户fenlyin生成的密钥对，公钥传到服务器，私钥发给sam一份，则sam也可以利用该密钥对登录服务器。
-- 公钥会添加在服务器用户根目录中**.ssh/authorized_keys**文件中。
+- 公钥会添加在服务器用户根目录中`.ssh/authorized_keys`文件中。
 - 生成密钥对：`ssh-keygen -t rsa`， -t type: 即使用rsa非对称加密法。
 - 将密钥对传到服务器：`ssh-copy-id username@IPaddress`。传密钥时确保服务端开启了基于口令的连接，即**PasswordAuthentication yes**，因为在传公钥时肯定要建立连接，而此时还不能基于密钥连接，所以只能基于口令连接。
 
