@@ -39,7 +39,7 @@
      - options：
        - -r 连同用户的根目录一起删除
 
-  4. 用户密码管理: passwd [optinons] username
+  4. 用户密码管理: passwd \[optinons] username
 
      用户刚创建后没有密码，此时会被系统锁定，无法使用，必须要为其设置密码
 
@@ -111,7 +111,7 @@
 + 开启crontab的日志记录
 
   1. 修改/etc/rsyslog.d/50-default.conf, 去掉cron前面的注释
-  2. 重启rsyslog service rsyslog restart
+  2. 重启 `service rsyslog restart`
   3. 查看 **cat /var/log/cron.log**
 
 + 配置文件：
@@ -155,28 +155,18 @@
 
 ### ssh连接细节
 
-​	使用ssh客户端连接远程服务器时，首先会搜索~/.ssh/know_hosts文件中有无该主机，如果有，则进行密钥连接，否则，进行口令连接（前提是ssh服务端开启了口令连接）。
+- 使用ssh客户端连接远程服务器时，首先会搜索~/.ssh/know_hosts文件中有无该主机，如果有，则进行密钥连接，否则，进行口令连接（前提是ssh服务端开启了口令连接）
+- 据我猜测，known_hosts中应该存有ip地址和主机的映射关系，因为我前后使用同一个ip地址登录了两台主机，当我等第二台主机时，ssh警告说：远程主机不安全。这是因为本地认为该ip地址应该是主机1的，但现在成为主机2了，那么很可能自己正在被中间劫持攻击，所以ssh拒绝连接。
+- 每个用户应将生成的私钥和公钥存好，之后想要远程连接任意服务器，只需将此公钥上传服务器即可，而私钥用于与服务器的公钥配对，即理想情况下一个用户一生只需用一个密钥对。
 
-​	每个用户应将生成的私钥和公钥存好，之后想要远程连接任意服务器，只需将此公钥上传服务器即可，而私钥用于与服务器的公钥配对，即理想情况下一个用户一生只需用一个密钥对。
-
-## 通过ssh传输文件
-
+### 通过ssh传输文件
 `scp [-r] source destination`
-
 ### 从服务端下载文件到客户端：
-
 `scp username@IPaddress:file_path  destination_path`
-
 eg.
-
 `scp kali@kali:/home/kali/test  ~`
-
 ### 从客户端上传文件到服务端：
-
 `scp file_path  username@IPaddress:destination_path`
-
 eg.
-
 `scp ~/test  kali@kali:/home/kali`
-
 - destination is always directory, if source is directory type, then add -r option.
