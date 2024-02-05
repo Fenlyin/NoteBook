@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/linux 系统与硬件级知识.md",
+                "file": "git基本操作.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 226.5
   },
   "right": {
     "id": "e838859eace51c8f",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/linux 系统与硬件级知识.md",
+                "file": "git基本操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/linux 系统与硬件级知识.md",
+                "file": "git基本操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/linux 系统与硬件级知识.md"
+                "file": "git基本操作.md"
               }
             }
           }
@@ -161,11 +161,11 @@
   },
   "active": "2eefc83ce8b8c85d",
   "lastOpenFiles": [
-    "linux/linux 软件级知识.md",
-    "linux/linux 系统与硬件级知识.md",
-    "linux/kali渗透测试.md",
     "vim/vim高阶操作.md",
+    "linux/kali渗透测试.md",
+    "linux/linux 系统与硬件级知识.md",
     "linux/Shell.md",
+    "linux/linux 软件级知识.md",
     "vim",
     "Welcome.md",
     "git基本操作.md",
