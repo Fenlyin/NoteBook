@@ -1,4 +1,4 @@
-## linux用户管理
+### linux用户管理
 
  	linux用户管理主要设计到两个文件：1. /etc/passwd 2. /etc/group。其中，paaswd存储的是用户相关的信息，一行存储一个用户，每行有7个字段。group存储的是组信息，一行一组，每行四个字段。
 
@@ -14,7 +14,7 @@
 
 
 
-### 主要命令
+##### 主要命令
 
 - **用户方面**
 
@@ -74,7 +74,7 @@
   
 	
 
-## screen简单理解
+### screen简单理解
 
 - 新建虚拟终端
 
@@ -96,77 +96,21 @@
 - 清除虚拟终端
 
   - 在虚拟终端中Ctrl+d登出，或者输入exit
-  - 在主终端中输入：screen -R pid/name -X quit
+  
+-  在主终端中输入：screen -R pid/name -X quit
 
 - screen -ls 列出所有的虚拟终端
-
 - screen高阶命令：
 
   - 进入特殊命令模式后：
-  - k 关闭虚拟终端，相当于exit
+  - 关闭虚拟终端，相当于exit
   - ？显示所有的命令
 
-## crontab简单理解
-
-+ 开启crontab的日志记录
-
-  1. 修改/etc/rsyslog.d/50-default.conf, 去掉cron前面的注释
-  2. 重启 `service rsyslog restart`
-  3. 查看 **cat /var/log/cron.log**
-
-+ 配置文件：
-
-  1. 用户：**/var/spool/cron/crontabs/username**
-  2. crontab：**/etc/crontab**
-
-  - 在用户配置文件中，任务格式：* * * * * CMD
-  - 在crontab软件自身配置文件中，任务格式：* * * * * username CMD
-
-+ 编辑用户配置文件
-
-  + crontab -e
-  + 也可以使用vim等文本编辑器，但使用crontab可以检查，如果任务格式有错，关闭时会提醒
-
-+ minute hour day month week
-
-## ssh远程连接linux
-
-​	要使用ssh远程连接linux，那么linux上至少需要安装ssh服务端，自身至少要安装ssh客户端。
-
-### 安装ssh服务端
-
-- dpkg -l | grep ssh 查看有无openssh-server
-- 如果无，则：sudo apt-get install openssh-server
-- 安装后：ps -e | grep ssh, 看到sshd则说明ssh服务已启动
-- 如果没启动，则：sudo service ssh start
-
-​	连接方式有两种：1. 基于用户口令的连接。2. 基于密钥对的连接。
-
-### 基于用户口令的连接
-
-​	ssh username@IP address, 之后需要输入该用户的口令（密码）
-
-### 基于密钥对的连接
-
-- 私钥放在客户端，公钥放在服务端，密钥对生成后便是用户无关的了，比如我用用户fenlyin生成的密钥对，公钥传到服务器，私钥发给sam一份，则sam也可以利用该密钥对登录服务器。
-- 公钥会添加在服务器用户根目录中`.ssh/authorized_keys`文件中。
-- 生成密钥对：`ssh-keygen -t rsa`， -t type: 即使用rsa非对称加密法。
-- 将密钥对传到服务器：`ssh-copy-id username@IPaddress`。传密钥时确保服务端开启了基于口令的连接，即**PasswordAuthentication yes**，因为在传公钥时肯定要建立连接，而此时还不能基于密钥连接，所以只能基于口令连接。
-
-### ssh连接细节
-
-- 使用ssh客户端连接远程服务器时，首先会搜索~/.ssh/know_hosts文件中有无该主机，如果有，则进行密钥连接，否则，进行口令连接（前提是ssh服务端开启了口令连接）
-- 据我猜测，known_hosts中应该存有ip地址和主机的映射关系，因为我前后使用同一个ip地址登录了两台主机，当我等第二台主机时，ssh警告说：远程主机不安全。这是因为本地认为该ip地址应该是主机1的，但现在成为主机2了，那么很可能自己正在被中间劫持攻击，所以ssh拒绝连接。
-- 每个用户应将生成的私钥和公钥存好，之后想要远程连接任意服务器，只需将此公钥上传服务器即可，而私钥用于与服务器的公钥配对，即理想情况下一个用户一生只需用一个密钥对。
-
-### 通过ssh传输文件
-`scp [-r] source destination`
-### 从服务端下载文件到客户端：
-`scp username@IPaddress:file_path  destination_path`
-eg.
-`scp kali@kali:/home/kali/test  ~`
-### 从客户端上传文件到服务端：
-`scp file_path  username@IPaddress:destination_path`
-eg.
-`scp ~/test  kali@kali:/home/kali`
-- destination is always directory, if source is directory type, then add -r option.
+### 链接文件
+linux中链接文件分为软链接（符号链接）和硬链接。
+##### 软链接
+`ln -s <源文件> <链接文件>`
+软链接相当于指针，会有独一的inode号，有储存空间，其中储存的是源文件的相关信息
+##### 硬链接
+`ln <源文件> <链接文件>`
+硬链接相当于引用（别名），与源文件共享同一inode，只有当所有的硬链接和源文件都被删除时，文件才会被真正删除

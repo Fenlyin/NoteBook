@@ -92,7 +92,136 @@ length=${#arr[*]}    # 取得数组长度
 
 length=${#arr[1]}    # 取得元素长度
 ```
+##### 数组的键
+``` bash
+# 使用！符号访问数组的键
+arr1=(1 2 3)
+echo ${!arr1[@]}
+# Output: 
+# 0 1 2
 
+declare -A site
+site["google"]="www.google.com"
+site["runoob"]="www.runoob.com"
+site["taobao"]="www.taobao.com"
+echo "数组的键为: ${!site[*]}"
+echo "数组的键为: ${!site[@]}"
+# Output:
+# 数组的键为: google runoob taobao
+# 数组的键为: google runoob taobao
+```
+### 运算符
+>凡是需要被方括号包围的条件表达式，方括号与操作数、操作数与操作符之间都需要有空格分隔
+>与C语言不同，在shell中，0代表True，非0代表False
+##### 算术运算符
+![img](_resources/suan_shu.png)
+Shell不支持数学运算，因此，想要进行数学运算需要用到其他方法：
+``` bash
+echo `expr $a \* $b`
+echo [$a+$b] // 不能有多余空格
+```
+这是一个`a+b`的表达式，需要注意的是：
+- 算术运算符表达式使用\`expr \`包围
+- 对于乘法，需要加一个转义符
+- 操作数与操作符之间必须要用一个空格分隔
+##### 关系运算符
+![关系运算符](_resources/guan_xi.png)
+![关系运算符](_resources/guan_xi_1.png)
+- 关系运算符表达式使用方括号包围
+##### 布尔运算/逻辑运算
+![bool](_resources/bool.png)
+![logic](_resources/logic.png)
+- 本人感觉这两运算符是一个东西。。。
+##### 字符串运算符
+![str_operator](_resources/str_operator.png)
+##### 文件检测运算符
+文件检测运算符可以用来检测一个文件的各种属性
+![file_operator](_resources/file_operator.png)
+- `-S` 判断文件是否Socket
+- `-L` 判断文件是否存在并且是一个符号链接
+
+### echo命令
+- `echo -e "hello world\n` 开启转义，输出换行。类似于行换这种，必须要在双引号中
+- `echo '$str\n` 输出：`$str\n` 输出原样字符，使用单引号
+### printf命令
+### 流程控制
+##### if-else if-else
+``` bash
+if condition1
+then
+	command1
+else if
+	command2
+else
+	command3
+fi  # 注意要加fi结束
+
+# 写成一行：
+if [ condition1 ];then command1;else if command2;else command3;fi
+```
+##### for 循环
+``` bash
+for i in 1 2 3 4 5
+do
+	echo $i
+done
+
+# 写成一行：
+for i  in 1 2 3 4 5;do echo $i;done
+```
+##### while  循环
+``` bash
+while condition
+do
+	command
+done
+```
+##### until 循环
+- until 循环与while循环相反，while是当条件为真时执行循环体，而until是当条件为假时执行循环体
+##### case-esac
+``` bash
+case var in
+	var) command ;;
+	var) command ;;
+	  *) command ;;
+esac
+# 1. ) 后面只能隔一个空格
+# 2. ;; 不能少，最后一个除外
+# 3. 在shell中，break不能代替 ;;
+```
+##### break-continue
+>与c语言中的语法一致，但只限于跳出循环语句
+### 函数
+##### 定义
+``` bash
+[Function] func([var1, var2, ...]){
+# Function引导符可有可无
+	command1
+	command2
+	[return var] # 没有return，则将以最后一条命令的结果作为返回值
+} 
+```
+##### 调用
+``` bash
+# 无参：
+func
+# 有参：
+func var1 var2 ...
+# 在shell中，函数更偏向于命令形式
+```
+##### 函数参数
+``` bash
+$# 参数个数
+$<i> 第i个参数
+$? 上一条命令（函数）的返回值
+```
+### 文件包含
+在shell中，也可以包含文件，方便代码复用等。
+``` bash
+. file_path
+# or
+source file_path
+```
 ### 输入输出重定向
 重定向都是针对于命令，一个命令只要有输入或输出，那么就可以重定向。默认情况下，一个命令有一个输入源：`stdin`文件描述符：`0`；两个输出，分别是标准输出：`stdout`文件描述符：`1`；标准错误输出：`stderr`文件描述符：`2`
 - `cat file > file1`或`cat file >> file1` 输出重定向到file1，`>` 表示覆盖写入，`>>`表示追加写入
