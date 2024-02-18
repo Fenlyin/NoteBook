@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows自动化/Untitled.md",
+                "file": "mysql语句速查.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows自动化/Untitled.md",
+                "file": "mysql语句速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows自动化/Untitled.md",
+                "file": "mysql语句速查.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows自动化/Untitled.md"
+                "file": "mysql语句速查.md"
               }
             }
           }
@@ -160,7 +160,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf88129906e6a307",
+  "active": "ae2eba1e33ca0785",
   "lastOpenFiles": [
     "Windows自动化/PowerShell.md",
     "Windows自动化/Untitled.md",
