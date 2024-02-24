@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "9f50375623ad369a",
+        "id": "fca64755729a199c",
         "type": "tabs",
         "children": [
           {
-            "id": "e6b746e286064e6a",
+            "id": "3de485e754aff34f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/linux 系统与硬件级知识.md",
+                "file": "linux/linux 软件级知识.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5730f796178d0e4a",
+            "id": "a5d1ce2b16cdc182",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -159,15 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5730f796178d0e4a",
+  "active": "a5d1ce2b16cdc182",
   "lastOpenFiles": [
     "linux/linux 系统与硬件级知识.md",
     "linux/Shell.md",
+    "linux/linux 软件级知识.md",
+    "linux/linux 命令.md",
     "一些理解与心得.md",
     "git基本操作.md",
     "vim/vim高阶操作.md",
     "linux/kali渗透测试.md",
-    "linux/linux 软件级知识.md",
     "Untitled",
     "linux/_resources/Pasted image 20240206004553.png",
     "_resources/bool.png",

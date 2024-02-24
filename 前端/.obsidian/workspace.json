@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f936af81f2fd5dfa",
+        "id": "082582aa8c649e20",
         "type": "tabs",
         "children": [
           {
-            "id": "936616bc8a144d9c",
+            "id": "3a035fdb8b38f12a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mysql/mysql 基础知识.md",
+                "file": "Javascript/js基础知识.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1063403983c4dbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "python modules/configparser.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mysql/mysql 基础知识.md",
+                "file": "python modules/configparser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mysql/mysql 基础知识.md",
+                "file": "python modules/configparser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mysql/mysql 基础知识.md"
+                "file": "python modules/configparser.md"
               }
             }
           }
@@ -146,25 +159,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "936616bc8a144d9c",
+  "active": "b1063403983c4dbf",
   "lastOpenFiles": [
-    "Javascript/通过js找到HTML元素.md",
+    "Javascript/内置类型属性与方法杂记.md",
+    "Javascript/js基础知识.md",
+    "HTML/杂记.md",
+    "HTML/常见标签.md",
+    "Javascript/经验、技巧.md",
     "mysql/mysql 基础知识.md",
-    "php/PHP 字符串.md",
     "php/PHP 数组.md",
+    "php/PHP 字符串.md",
+    "舍入误差.md",
+    "python modules/Requests.md",
+    "python modules/pandas 库常用函数.md",
+    "python modules/os.path模块.md",
+    "python modules/numpy.md",
+    "python modules/matplot.md",
+    "python modules/configparser.md",
     "mysql/Untitled",
     "mysql",
-    "HTML/常见标签.md",
     "php",
-    "HTML/杂记.md",
-    "Javascript/内置类型属性与方法杂记.md",
-    "python modules/os.path模块.md",
-    "python modules/Requests.md",
-    "python modules/configparser.md",
-    "python modules/pandas 库常用函数.md",
     "python modules",
-    "python modules/matplot.md",
-    "python modules/numpy.md",
     "Javascript",
     "HTML",
     "Welcome.md"
