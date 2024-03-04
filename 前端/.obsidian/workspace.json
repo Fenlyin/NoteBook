@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "082582aa8c649e20",
+        "id": "e5905b61ebc3ffcd",
         "type": "tabs",
         "children": [
           {
-            "id": "3a035fdb8b38f12a",
+            "id": "cca732afb06f7d2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "b1063403983c4dbf",
+            "id": "41bc7155508794e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python modules/configparser.md",
+                "file": "css/方法.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 239.5
   },
   "right": {
     "id": "6f9c4b1b5e51aaf6",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python modules/configparser.md",
+                "file": "css/方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python modules/configparser.md",
+                "file": "css/方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,16 +138,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python modules/configparser.md"
+                "file": "css/方法.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,23 +159,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1063403983c4dbf",
+  "active": "41bc7155508794e4",
   "lastOpenFiles": [
-    "Javascript/内置类型属性与方法杂记.md",
     "Javascript/js基础知识.md",
-    "HTML/杂记.md",
-    "HTML/常见标签.md",
+    "css/方法.md",
+    "Javascript/内置类型属性与方法杂记.md",
     "Javascript/经验、技巧.md",
+    "HTML/标签.md",
+    "HTML/杂记.md",
+    "属性方法/Untitled 2.md",
+    "属性方法/js.md",
+    "属性方法/html.md",
+    "舍入误差.md",
+    "css",
+    "python modules/for 循环底层原理.md",
+    "属性方法",
+    "python modules/Request.md",
+    "大模型总结/cURL.md",
+    "大模型总结",
     "mysql/mysql 基础知识.md",
+    "python modules/configparser.md",
+    "python modules/matplot.md",
+    "python modules/numpy.md",
+    "python modules/os.path模块.md",
+    "python modules/pandas 库常用函数.md",
     "php/PHP 数组.md",
     "php/PHP 字符串.md",
-    "舍入误差.md",
-    "python modules/Requests.md",
-    "python modules/pandas 库常用函数.md",
-    "python modules/os.path模块.md",
-    "python modules/numpy.md",
-    "python modules/matplot.md",
-    "python modules/configparser.md",
     "mysql/Untitled",
     "mysql",
     "php",

@@ -182,3 +182,17 @@ linux中链接文件分为软链接（符号链接）和硬链接。
 `ln <源文件> <链接文件>`
 硬链接相当于引用（别名），与源文件共享同一inode，只有当所有的硬链接和源文件都被删除时，文件才会被真正删除
 硬链接不能跨文件系统创建。
+
+### 磁盘管理
+挂载了disk就无法再挂载该disk的partition，反之，挂载了partition，也就无法挂载disk
+##### mount与umount
+- `mount 设备名 挂载点`
+- `umount 设备名[挂载点]` 卸载时输入设备名或该设备的挂载点都一样
+##### fuser
+`fuser -v 挂载点` 查看正在访问该挂载点的进程、用户
+`fuser -km 挂载点` 结束所有正在访问该挂载点的进程
+
+##### mkfs
+`mkfs.<type> partition` 
+`mkfs -t <type> partition`
+格式化分区为type类型的文件系统

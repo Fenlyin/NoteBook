@@ -4,5 +4,6 @@
   "userIgnoreFilters": [
     "/_resources"
   ],
-  "showLineNumber": true
+  "showLineNumber": true,
+  "spellcheck": false
 }
