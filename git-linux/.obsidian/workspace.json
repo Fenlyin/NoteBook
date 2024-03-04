@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/linux 软件级知识.md",
-                "mode": "preview",
+                "file": "linux/linux 命令.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/linux 软件级知识.md",
+                "file": "linux/linux 命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/linux 软件级知识.md",
+                "file": "linux/linux 命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/linux 软件级知识.md"
+                "file": "linux/linux 命令.md"
               }
             }
           }
@@ -161,12 +161,12 @@
   },
   "active": "a5d1ce2b16cdc182",
   "lastOpenFiles": [
-    "linux/linux 系统与硬件级知识.md",
+    "git基本操作.md",
     "linux/linux 软件级知识.md",
+    "linux/linux 系统与硬件级知识.md",
     "linux/Shell.md",
     "linux/kali渗透测试.md",
     "linux/linux 命令.md",
-    "git基本操作.md",
     "一些理解与心得.md",
     "vim/vim高阶操作.md",
     "Untitled",

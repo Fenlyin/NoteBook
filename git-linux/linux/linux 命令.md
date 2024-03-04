@@ -19,3 +19,4 @@ echo "export PATH-..." | sudo tee /etc/profile
 # Successfully!
 # 第一个重定向命令没有root权限，所以失败
 ```
+item
