@@ -27,6 +27,14 @@
 ### 仓库配置
 - `git config -e [--global] [--system]` 打开配置文件并编辑，默认是当前仓库的配置文件，即`Dir/.git/config`，只影响当前仓库；`--global` 选项则打开用户级配置文件，即`username/.gitconfg`，影响当前用户的所有仓库；`--system`选项打开系统及配置文件，即`/etc/gitconfg`，影响当前系统上的所有git仓库
 - `git config -l | --list` 列出当前仓库配置，从上到下依次列出系统级、用户级、仓库级的配置文件，其中，仓库级配置会覆盖用户级和系统及配置，用户级配置会覆盖系统及配置，总之，影响范围越小的配置优先级越高
+##### 添加远程仓库
+`git remote add <name> <addr>` \<name> 是你给这个仓库气的名称，取决于你，\<addr>是远程仓库的地址。
+### gitignore不起作用问题修复
+- 原因：当文件已被跟踪后，如果想要ignore，git将依然不会忽视，除非清楚缓存：
+``` shell
+git rm [-r] cached <file>
+# -r 用于删除目录
+```
 ### 加速访问GitHub
 - 镜像代理
     - eg. “git clone [https://mirror.ghproxy.com/https://github.com/Fenlyin/MihoyoBBSTools.git”](https://mirror.ghproxy.com/https://github.com/Fenlyin/MihoyoBBSTools.git%E2%80%9D)
