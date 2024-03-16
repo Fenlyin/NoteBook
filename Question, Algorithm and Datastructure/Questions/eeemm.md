@@ -1,0 +1,82 @@
+## 前缀和问题
+### 问题描述
+- 给定一个数组num和正整数n，求该数组的前n项和sum[n]。
+- 给定一个数组num和两个正整数i, j，求区间[i, j]所有数的和sum[i, j]。
+- 求解多维数据的前缀和
+### 解决方案
+#### 1.std::partial_sum()
+c++标准库函数，定义于\<numeric>。
+
+``` c++
+vector<int> arr(100, 0); // 输入数组
+vector<int sum(100, 0); // 存放结果
+for (int i = 0; i < 100; i++){
+	arr[i] = i + 1;
+}
+partial_sum(arr.begin(), arr.end(), sum.begin());
+for(int i = 0; i < 100; i++){
+	printf("%6d", sum[i]);
+	if ((i + 1) % 10 == 0)
+		cout << endl;
+}
+```
+#### 2.基于动态规划解决前缀和
+##### 状态转移方程：
+- preSum[n] = preSum[n - 1] + num[n - 1]
+- sum[i, j] = preSum[j + 1] - preSum[i]
+- 其中，preSum[0] = 0
+
+#### 3.多维情况 
+#容斥定理
+
+$\begin{bmatrix}11 & 2 & 12 & 8\\ 31 & 4 & 21 & 86 \\ 98 & 42 & 76 & 52\\ \end{bmatrix}$
+- $sum_{xy}$ 表示$\sum_{i=1}^x\sum_{j=1}^ya_{ij}$, 则$sum_{xy}=sum_{x-1y}+sum_{xy-1}-sum_{x-1y-1}+a_{xy}$
+- 对于子矩阵$[(x_1,y_1),(x_2,y_2)]$, $sum=sum_{x_1-1y_2}-sum_{x_2y_1-1}+sum_{x_1-1y_1-1}$
+### tags
+#前缀和
+
+## 任意进制转十进制
+``` cpp
+// c++:
+stoi(str, nullptr, base) // base: str的进制
+// python:
+int(str, base)
+```
+
+## 十进制转任意进制
+
+```cpp
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+
+std::string decimalToBase(unsigned int decimal, unsigned int base) {
+    std::string digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // 支持的字符集，可以根据需要扩展
+    std::string result;
+
+    while (decimal > 0) {
+        result = digits[decimal % base] + result; // 取余数并添加到结果字符串的前面
+        decimal /= base; // 除以进制数
+    }
+
+    // 如果结果为空（即原始十进制数为0），则返回"0"
+    return result.empty() ? "0" : result;
+}
+
+int main() {
+    unsigned int decimal = 255; // 示例十进制数
+    unsigned int base = 16; // 转换目标进制，例如16进制
+
+    std::string converted = decimalToBase(decimal, base);
+    std::cout << "Decimal " << decimal << " in base " << base << " is: " << converted << std::endl;
+
+    return 0;
+}
+```
+
+在这个函数中，`decimal`是要转换的十进制数，`base`是目标进制。函数使用一个字符串`digits`来存储所有可能的数字字符，包括十六进制中的数字和字母。然后，通过循环除以目标进制数并取余数，将余数对应的字符添加到结果字符串的前面。最后，如果结果为空（即原始十进制数为0），则返回字符串"0"。
+
+你可以根据需要扩展`digits`字符串以支持更高的进制或包含其他字符。例如，如果你想要支持36进制（使用0-9和A-Z），你可以将`digits`扩展为`"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"`。
+
+这个函数只处理无符号整数。如果你需要处理负数或有符号整数，你需要在转换之前处理符号，并在结果字符串的开头添加负号（如果需要的话）。此外，对于非常大的整数，你可能需要使用更大的数据类型（如`unsigned long long`）或专门的库来处理大数运算。
