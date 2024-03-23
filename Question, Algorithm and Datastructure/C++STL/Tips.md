@@ -1,27 +1,69 @@
-### string to number
-``` c++
-std::stoi(s); // string to int
-std::stol(s); // strint to long
-std::stoll(s);// string to long long 
-
-std::stof(s); // float
-std::stod(s); // double
-std::stold(s);// long double
-
-std::stoi(str, pos, base) //base指定了str代表的数为几进制
+### 为自定义类型定义 < 运算符
+- 在set或map中插入自定义类型时，要定义 `<` 运算符，因为set或map默认按升序排序。
+``` cpp
+bool operator<(const stu& other) const{
+	return this->a < other.a;
+}
 ```
-
-### number to string
-``` c++
-int a = 100;
-double b = 3.1415926;
-cout << std::to_string(a) << endl
-	<< std::to_string(b) << endl;
-// 100
-// 3.14593
-```
-
-### 容器的迭代器
+**注**：函数必须要是 `const` 类型！！！
+### 容器的迭代器类型即功能
 - 前向迭代器  只支持`operator++`
 - 双向迭代器  支持`operator++` 和 `operator--`
 - 随机访问迭代器 支持双向迭代器的操作，且支持 `operator-` 和 `operator+`;
+
+### java和c++的区别
+- 在C++中，局部变量在声明时分配内存，但可能未被初始化。全局或静态变量在程序开始执行前分配内存并初始化。
+- 在Java中，局部变量在初始化时分配内存（因为Java要求局部变量在使用前必须初始化）。成员变量（无论是实例还是静态）在类对象创建或类加载时分配内存。
+
+### c++ 大小写转换
+
+##### 只能转换单个字符
+``` c++
+using namespace std;
+
+// int toupper(char ch);
+char ch = toupper('a');  // ch: 'A'
+int ch = toupper('a'); // ch: 97
+
+// int tolower(char ch); 
+```
+
+##### 转化整个字符串的一种实现
+``` c++
+using namespace std;
+string s = "hello";
+string upper(s.size(), '\0'); // 不初始化 upper.size() 将会是 0
+transform(s.begin(), s.end(), upper.begin(),
+		 [](char ch){return toupper(ch)};);
+```
+
+### c++无参构造函数创建对象失败
+``` cpp
+Person p1; // 这样已经调用了默认（无参）构造函数
+// 要调用无参构造函数，不能加括号，否则创建对象失败！！！
+```
+
+### string operator[] 未定义行为
+- `operator[]` 运算符只能**访问**和**修改**容器元素，不能**增加**和**删除**容器元素
+``` cpp
+string s = "";
+s[0] = 'a'; // 错误！！！ 
+// 容器的 size 为0， 这是在添加元素，将会是未定义行为：
+cout << s << endl; // output: (null)
+
+s.resize(1);
+s[0] = 'a';
+cout << s << endl; // output: a
+// cout string 时， 输出 [0:size - 1] 的部分。 
+```
+**注:** 未定义行为编译器可能检测不出来，编程中应尽量避免未定义行为，否则程序运行可能会崩溃！
+
+### 无符号与有符号整型比较结果异常
+``` cpp
+int sign_a = -1;
+unsigned int unsigned_a = 1;
+cout << unsigned_a > sign_a << endl;
+// output: 0(false)
+```
+不同符号之间比较，会触发整数提升，即低精度向高精度转换，有符号向无符号转换，之后在进行比较。
+**注：** 实际中，应避免出现这种情况，因为这中代码难以阅读、调试、维护。

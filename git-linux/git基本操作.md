@@ -35,6 +35,8 @@
 git rm [-r] cached <file>
 # -r 用于删除目录
 ```
+### gitignore 配置
+- `!file.xxx`  `!` 表示文件被排除在规则之外
 ### 加速访问GitHub
 - 镜像代理
     - eg. “git clone [https://mirror.ghproxy.com/https://github.com/Fenlyin/MihoyoBBSTools.git”](https://mirror.ghproxy.com/https://github.com/Fenlyin/MihoyoBBSTools.git%E2%80%9D)

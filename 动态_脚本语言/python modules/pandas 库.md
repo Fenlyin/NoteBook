@@ -1,3 +1,4 @@
+
 - **数据读取和写入**
     - `pd.read_csv(file_path)`：从CSV文件中读取数据。
     - `pd.read_excel(file_path)`：从Excel文件中读取数据。
@@ -38,7 +39,10 @@
     - `df.pivot_table(values, index, columns, aggfunc)`：创建透视表。
     - `df.melt(id_vars, value_vars)`：将数据从宽格式转换为长格式。
 
-以上只是一些常用的Pandas函数，还有很多其他的函数和方法可以使用。如果您需要更多的帮助，可以查看以下资源：
+### Series()
+``` python
+Series([1,2,3], index=range(1, 4), name="myData")
 
+```
 
 
