@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e7693ad50dbd25ea",
+        "id": "77ba28c724b8bf40",
         "type": "tabs",
         "children": [
           {
-            "id": "8ea3edc165e33338",
+            "id": "227055e396d6a2c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++STL/Tips.md",
+                "file": "git-linux/vim/vim高阶操作.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 258.5
   },
   "right": {
     "id": "89ba1907fdc4a3a8",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++STL/Tips.md",
+                "file": "git-linux/vim/vim高阶操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++STL/Tips.md",
+                "file": "git-linux/vim/vim高阶操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++STL/Tips.md"
+                "file": "git-linux/vim/vim高阶操作.md"
               }
             }
           },
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,24 +147,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ea3edc165e33338",
+  "active": "227055e396d6a2c1",
   "lastOpenFiles": [
+    "动态_脚本语言/css/方法.md",
+    "c与c++/类的继承权限问题.md",
+    "c与c++/GNU 工具.md",
+    "c与c++/无符号数的溢出自动取模.md",
+    "c与c++/优先队列中仿函数的理解.md",
+    "c与c++/cin 输入.md",
+    "c与c++/printf格式化输出简单总结.md",
+    "MATLAB/有用的函数.md",
+    "English/grammer.md",
+    "English/words.md",
+    "English",
+    "C++STL/Tips.md",
+    "Questions/大纲.md",
+    "Questions/问题记录.md",
+    "C++STL/string.md",
+    "C++STL/模型生成.md",
+    "C++STL/Algorithm.md",
+    "C++STL/map.md",
+    "C++STL/numeric.md",
     "C++STL/set.md",
     "C++STL/queue.md",
-    "C++STL/Tips.md",
-    "C++STL/string.md",
-    "C++STL/map.md",
-    "C++STL/模型生成.md",
-    "C++STL/numeric.md",
-    "C++STL/Algorithm.md",
-    "Untitled.md",
-    "Untitled",
-    "Questions/eeemm.md",
-    "c与c++/优先队列中仿函数的理解.md",
-    "c与c++/无符号数的溢出自动取模.md",
-    "c与c++/cin 输入.md",
+    "MATLAB",
     "C++STL/Untitled",
-    "c与c++/printf格式化输出简单总结.md",
     "2024-03-15.md",
     "Untitled.canvas",
     "Algorithm and DataStructure/前缀和问题求解.md",

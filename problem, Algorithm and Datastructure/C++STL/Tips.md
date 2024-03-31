@@ -15,28 +15,6 @@ bool operator<(const stu& other) const{
 - 在C++中，局部变量在声明时分配内存，但可能未被初始化。全局或静态变量在程序开始执行前分配内存并初始化。
 - 在Java中，局部变量在初始化时分配内存（因为Java要求局部变量在使用前必须初始化）。成员变量（无论是实例还是静态）在类对象创建或类加载时分配内存。
 
-### c++ 大小写转换
-
-##### 只能转换单个字符
-``` c++
-using namespace std;
-
-// int toupper(char ch);
-char ch = toupper('a');  // ch: 'A'
-int ch = toupper('a'); // ch: 97
-
-// int tolower(char ch); 
-```
-
-##### 转化整个字符串的一种实现
-``` c++
-using namespace std;
-string s = "hello";
-string upper(s.size(), '\0'); // 不初始化 upper.size() 将会是 0
-transform(s.begin(), s.end(), upper.begin(),
-		 [](char ch){return toupper(ch)};);
-```
-
 ### c++无参构造函数创建对象失败
 ``` cpp
 Person p1; // 这样已经调用了默认（无参）构造函数
@@ -67,3 +45,14 @@ cout << unsigned_a > sign_a << endl;
 ```
 不同符号之间比较，会触发整数提升，即低精度向高精度转换，有符号向无符号转换，之后在进行比较。
 **注：** 实际中，应避免出现这种情况，因为这中代码难以阅读、调试、维护。
+
+### 类中成员变量必须在构造函数中初始化？
+- 对于 `class / struct` 类型的成员变量，只能通过构造函数初始化，对于**基本**数据类型，可以在声明时初始化。
+
+### initializer_list 初始化
+- 使用列表初始化，构造函数要支持
+
+`int a(1);` OK,  相当于**构造函数初始化**吧。
+`int a{1};` OK, `{1}` 是初始化列表，使用了**列表初始化**进行初始化
+
+要使用列表初始化，则对象必须要有**默认构造函数**，或者**参数为初始化列表**的构造函数。

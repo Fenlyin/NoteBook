@@ -3,3 +3,7 @@
 2. **替换：** `:[range]s/{pattern}/{new_string}` 
 	- `[range]` 以行为单位，是一个区间，例如：`2,5`表示\[2, 5]行
 	- 模式串的语法为正则表达式
+### nvim 进入 diff 模式
+``` shell
+nvim -d file1.txt file2.txt
+```
