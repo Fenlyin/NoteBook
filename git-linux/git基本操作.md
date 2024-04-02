@@ -1,4 +1,4 @@
-![image](_resources/img1.png)
+![image](_resources/img1.png) 
 ### 本地提交与修改
 - `git add <file1 file2> ...` 将指定文件加入index，表明要跟踪他们
 - `git status` 查看工作区状态，如果工作区index所指向的文件与仓库中的相比有变化，会给出具体提示。
@@ -16,7 +16,13 @@
 - `git branch <branchname>` 创建分支
 - `git branch -d <branchname>` 删除分支
 - `git switch -c <branchname> | git checkout [-b] <branchname>` 切换分支，-b, -c选项，如果分支不存在，则创建新分支并切换
-- ``
+
+### 合并操作
+##### 分支合并
+两个分支，如果对某个文件的 **同一个地方** 都进行了修改，然后各自提交，之后如果要合并两个分支(如temp->mster，temp合并到master分支)， git会不知道选择哪个修改，便会发生合并冲突，此时，需要手动编辑冲突文件，解决冲突。
+
+- `git merge temp` 将 `temp` 分支合并到当前分支
+
 ### 远程管理
 - `git push <remote> <branch>` 将当前分支推到远程仓库的指定分支
 - `git pull <remote> <branch>` 将远程仓库的指定分支拉到本地
@@ -24,7 +30,7 @@
    - `--allow-unrelated-histories` 在合并阶段，加入这个选项和将无关历史合并到一起
 - `git clone -b <branchname> <git address>` 通过选项-b可以指定远程仓库的指定分支
 - `git remote show [origin]` 查看远程仓库列表或某个远程仓库的详细信息
-### 仓库配置
+### 仓库配置 
 - `git config -e [--global] [--system]` 打开配置文件并编辑，默认是当前仓库的配置文件，即`Dir/.git/config`，只影响当前仓库；`--global` 选项则打开用户级配置文件，即`username/.gitconfg`，影响当前用户的所有仓库；`--system`选项打开系统及配置文件，即`/etc/gitconfg`，影响当前系统上的所有git仓库
 - `git config -l | --list` 列出当前仓库配置，从上到下依次列出系统级、用户级、仓库级的配置文件，其中，仓库级配置会覆盖用户级和系统及配置，用户级配置会覆盖系统及配置，总之，影响范围越小的配置优先级越高
 ##### 添加远程仓库
@@ -46,3 +52,4 @@ git rm [-r] cached <file>
     3. [https://cnpmjs.org/](https://cnpmjs.org/)
     4. [https://shrill-pond-3e81.hunsh.workers.dev/](https://shrill-pond-3e81.hunsh.workers.dev/)
     5. [https://fastgit.org/](https://fastgit.org/)
+

@@ -1,4 +1,4 @@
-### linux用户管理
+## linux用户管理
 
  	linux用户管理主要设计到两个文件：1. /etc/passwd 2. /etc/group。其中，paaswd存储的是用户相关的信息，一行存储一个用户，每行有7个字段。group存储的是组信息，一行一组，每行四个字段。
 
@@ -14,9 +14,7 @@
 
 
 
-##### 主要命令
-
-- **用户方面**
+#### **用户方面**
 
   1. useradd options username(root)
 
@@ -60,7 +58,7 @@
 
      - 查看用户信息
 
-- **用户组方面**
+#### 用户组方面
 
   1. groupadd options groupname (root)
      - -g 指定组id，与-o协同使用表示可以与已有的其他组id相同
@@ -173,7 +171,7 @@ eg.
 `scp ~/test  kali@kali:/home/kali`
 - destination is always directory, if source is directory type, then add -r option.
 
-### 链接文件
+## 链接文件
 linux中链接文件分为软链接（符号链接）和硬链接。
 ##### 软链接
 `ln -s <源文件> <链接文件>`
@@ -183,7 +181,7 @@ linux中链接文件分为软链接（符号链接）和硬链接。
 硬链接相当于引用（别名），与源文件共享同一inode，只有当所有的硬链接和源文件都被删除时，文件才会被真正删除
 硬链接不能跨文件系统创建。
 
-### 磁盘管理
+## 磁盘管理
 挂载了disk就无法再挂载该disk的partition，反之，挂载了partition，也就无法挂载disk
 ##### mount与umount
 - `mount 设备名 挂载点`

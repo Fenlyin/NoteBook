@@ -19,13 +19,13 @@
 ##### 渗透成功后的操作：
 -  meterpreter
 -  shell
-##### 主要工具：
+##### 主要工具
 - `msfvenom`	可以生成多平台的木马
-##### 主要模块：
+##### 主要模块
 -  `auxiliary`辅助模块
 -  `exploit`漏洞模块
 -  `payload`攻击载荷模块
-##### 主要命令：
+##### 主要命令
 - `use <moudule name> | <moudul index>`使用模块
 - `show options` 列出当前使用的模块的配置参数
 - `set <key>=<value>` 配置模块个属性的值

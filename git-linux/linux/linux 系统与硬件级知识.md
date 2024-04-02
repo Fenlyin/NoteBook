@@ -1,8 +1,8 @@
 ### 修改系统编码
-##### 涉及命令：
+##### 涉及命令
 - `locale`  查看当前编码
 - `locale -a` 列出所有字符集
-##### 具体修改：
+##### 具体修改
 1. `sudo vim /etc/profile`
 2. `export LANG='zh_CN.UTF-8'`在文件结尾追加
 3. `reboot` 重启系统
