@@ -2,6 +2,7 @@
 ### 本地提交与修改
 - `git add <file1 file2> ...` 将指定文件加入index，表明要跟踪他们
 - `git status` 查看工作区状态，如果工作区index所指向的文件与仓库中的相比有变化，会给出具体提示。
+- `git diff` 查看工作区详细的变化
 - `git commit <file> [-a] [-m "xxx"]` 提交index中指定文件到本地仓库，-a表示提交index中所有文件，-m添加提交注释
 - `git rm <file>` 将文件从工作区和index区删除
 - `git reset` `git restore <file>` 回退版本并忽略修改。对某个文件修改后如果想要撤销，则应先reset，然后restore。
@@ -19,7 +20,7 @@
 
 ### 合并操作
 ##### 分支合并
-两个分支，如果对某个文件的 **同一个地方** 都进行了修改，然后各自提交，之后如果要合并两个分支(如temp->mster，temp合并到master分支)， git会不知道选择哪个修改，便会发生合并冲突，此时，需要手动编辑冲突文件，解决冲突。
+两个分支，如果对某个文件的 **同一个地方** 都进行了修改，然后各自提交，之后如果要合并两个分支(如temp->mster，temp合并到master分支)， git会不知道选择哪个修改，便会发生合并冲突，此时，需要手动编辑冲突文件，解决冲突。之后 `git add .` 、 `git merge -- continue` 继续合并即可。
 
 - `git merge temp` 将 `temp` 分支合并到当前分支
 
