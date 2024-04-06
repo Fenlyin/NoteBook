@@ -25,9 +25,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VsCode.md",
+                "file": "git-linux/linux/Shell.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "b67a6047580416dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git-linux/linux/kali渗透测试.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33e683ea292abed1",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "cpp_value_type.canvas",
+                "viewState": {
+                  "x": -146,
+                  "y": -280.5,
+                  "zoom": 0
+                }
               }
             }
           },
@@ -37,14 +64,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "makefile.md",
+                "file": "git-linux/linux/Shell.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "shell",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "makefile.md",
+                "file": "cpp_value_type.canvas",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "makefile.md",
+                "file": "cpp_value_type.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "makefile.md"
+                "file": "cpp_value_type.canvas"
               }
             }
           },
@@ -171,14 +198,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "027a53dad26d856d",
+  "active": "33e683ea292abed1",
   "lastOpenFiles": [
-    "VsCode.md",
+    "Content_type.canvas",
+    "VsCode 配置.md",
+    "FTP 连接.md",
+    "动态_脚本语言/Ruby/语法.md",
+    "Pasted image 20240406224607.png",
+    "Pasted image 20240406224520.png",
+    "Pasted image 20240406224423.png",
+    "动态_脚本语言/python modules/Pillow.md",
+    "git-linux/linux/kali渗透测试.md",
+    "动态_脚本语言/Ruby",
+    "git-linux/linux/Tips.md",
+    "git-linux/linux/Shell.md",
+    "git-linux/linux/linux 基础命令.md",
+    "git-linux/linux/linux 系统与硬件级知识.md",
+    "git-linux/linux/linux 软件级知识.md",
     "makefile.md",
     "动态_脚本语言/python modules/String.md",
     "动态_脚本语言/大模型总结/ANSI编码.md",
     "problem, Algorithm and Datastructure/c与c++/指针常量与常量指针.md",
-    "动态_脚本语言/python modules/Pillow.md",
     "动态_脚本语言/python modules/os.path模块.md",
     "动态_脚本语言/python modules/pandas 库.md",
     "动态_脚本语言/大模型总结/cURL.md",
@@ -188,19 +228,9 @@
     "动态_脚本语言/python modules/matplot.md",
     "动态_脚本语言/python modules/numpy.md",
     "动态_脚本语言/python modules/Requests.md",
-    "Content_type.canvas",
-    "Graph_Demo.canvas",
+    "cpp_value_type.canvas",
     "api抓取.md",
     "problem, Algorithm and Datastructure/C++STL/string.md",
-    "problem, Algorithm and Datastructure/C++STL/Tips.md",
-    "git-linux/git基本操作.md",
-    "README.md",
-    "Expression.md",
-    "git-linux/linux/kali渗透测试.md",
-    "git-linux/linux/linux 基础命令.md",
-    "git-linux/linux/linux 软件级知识.md",
-    "git-linux/linux/linux 系统与硬件级知识.md",
-    "git-linux/一些理解与心得.md",
     "English",
     "MATLAB",
     "C++STL/Untitled",
