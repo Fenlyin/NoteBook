@@ -20,8 +20,10 @@ echo -e "\e[5 q"    # 竖线闪动
 echo -e "\e[6 q"    # 竖线不动
 ```
 ### 修改时区
->修改方法有很多，感觉好乱啊，照着网上的修改了一下，没有全改过来，导致crontab出来问题，我无语了，下面这个目前似乎好用：？
+>修改方法有很多，感觉好乱啊，照着网上的修改了一下，没有全改过来，导致crontab出问题，我无语了，下面这个目前似乎好用：？
 
 `timedatectl`
+- `timedatectl list-timezones` 显示可用时区
+- `timedatectl set-timezone <Asia/Shanghai>` 设置时区
 ### 特权端口
 在类Unix系统中，小于等于1024的端口被称为特权端口（privileged ports），只有root用户才可以绑定。

@@ -7,3 +7,8 @@ gcc -x c++ main.cpp func.cpp -lstdc++ -o main.exe
 - `-x` 指定源文件为 `c++` 文件
 - `-lstdc++` 指定 `c++` 的标准库
 
+### options
+- `-L` 
+- `-l`
+- `-I`
+- `-g`

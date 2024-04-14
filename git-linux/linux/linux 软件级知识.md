@@ -14,9 +14,9 @@
 
 
 
-#### **用户方面**
+### **用户方面**
 
-  1. useradd options username(root)
+  ##### useradd options username(root)
 
      - options:
        - -c 指定用户描述
@@ -28,16 +28,16 @@
        - -s 指定用户终端
        - -u 指定用户id，如果不给出，默认是从上一个用户id递增
 
-  2. usermod options username(root)
+  ##### usermod options username(root)
 
      - 常用选项与 useradd一致，可以为用户指定新的资源值
 
-  3. userdel options username(root)
+  ##### userdel options username(root)
 
      - options：
        - -r 连同用户的根目录一起删除
 
-  4. 用户密码管理: passwd \[optinons] username
+  ##### 用户密码管理: passwd \[optinons] username
 
      用户刚创建后没有密码，此时会被系统锁定，无法使用，必须要为其设置密码
 
@@ -74,29 +74,22 @@
 
 ### screen简单理解
 
-- 新建虚拟终端
-
-  - screen [-S -R name]
+##### 新建虚拟终端
+  - screen \[-S|-R name]
   - 不指定终端名，系统会使用linux默认的命名方法，会很麻烦。
-
   - -R 选项，如果name终端已经存在，则直接连接，如果是-S的话，则会创建一个同名的新终端
 
-- 挂起虚拟终端
-
+##### 挂起虚拟终端
   - Ctrl+a d
   - Ctrl+a进入特殊命令模式，在按d键登出
 
-- 连接虚拟终端
-
+##### 连接虚拟终端
   - screen -r -R pid/name
   - -R 选项， 如果终端不存在，则会创建新终端
 
-- 清除虚拟终端
-
+##### 清除虚拟终端
   - 在虚拟终端中Ctrl+d登出，或者输入exit
-  
 -  在主终端中输入：screen -R pid/name -X quit
-
 - screen -ls 列出所有的虚拟终端
 - screen高阶命令：
 
