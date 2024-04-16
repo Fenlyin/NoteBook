@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "02a6f94753b4bc0b",
+        "id": "4d43ebb8ab8203a4",
         "type": "tabs",
         "children": [
           {
-            "id": "63708212a6237e33",
+            "id": "c8026de6714f1e92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "动态_脚本语言/python/装饰器、迭代器与生成器.md",
+                "file": "动态_脚本语言/Javascript/内置类型属性与方法杂记.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "动态_脚本语言/python/装饰器、迭代器与生成器.md",
+                "file": "动态_脚本语言/Javascript/内置类型属性与方法杂记.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "动态_脚本语言/python/装饰器、迭代器与生成器.md",
+                "file": "动态_脚本语言/Javascript/内置类型属性与方法杂记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "动态_脚本语言/python/装饰器、迭代器与生成器.md"
+                "file": "动态_脚本语言/Javascript/内置类型属性与方法杂记.md"
               }
             }
           },
@@ -146,38 +146,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a2aa65d75fa7daa2",
+  "active": "c8026de6714f1e92",
   "lastOpenFiles": [
-    "winget.md",
-    "Opencv-python.md",
-    "渗透测试基本知识.md",
+    "动态_脚本语言/Javascript/js基础知识.md",
+    "动态_脚本语言/Javascript/内置类型属性与方法杂记.md",
     "README.md",
-    "Cpp Expression.md",
-    "cpp_value_type.canvas",
-    "Content_type.canvas",
+    "动态_脚本语言/python/爬虫.md",
+    "动态_脚本语言/python/pandas 库.md",
+    "动态_脚本语言/python/os.path模块.md",
+    "动态_脚本语言/python/numpy.md",
+    "动态_脚本语言/python/matplot.md",
     "git-linux/git基本操作.md",
-    "git-linux/一些理解与心得.md",
-    "git-linux/linux/linux 软件级知识.md",
+    "动态_脚本语言/python/tips.md",
+    "FTP 连接案例.md",
     "动态_脚本语言/css/方法.md",
     "动态_脚本语言/css/长度单位.md",
-    "problem, Algorithm and Datastructure/c与c++/头文件、库文件搜索问题.md",
-    "_resources/box-moudel.png",
-    "动态_脚本语言/Shell.md",
-    "_resources/str_operator.png",
-    "动态_脚本语言/batch/tips.md",
-    "api抓取.md",
-    "动态_脚本语言/python/装饰器、迭代器与生成器.md",
+    "动态_脚本语言/AutoHotkey/基础语法.md",
     "动态_脚本语言/batch/脚本.md",
-    "动态_脚本语言/powershell/脚本.md",
-    "动态_脚本语言/powershell/命令.md",
-    "VsCode 配置.md",
     "动态_脚本语言/batch/命令.md",
-    "git-linux/linux/kali渗透测试.md",
-    "git-linux/linux/Tips.md",
-    "git-linux/linux/linux 基础命令.md",
-    "git-linux/linux/linux 系统与硬件级知识.md",
-    "动态_脚本语言/python/numpy.md",
-    "动态_脚本语言/python/tips.md",
+    "动态_脚本语言/batch/tips.md",
+    "动态_脚本语言/Shell.md",
+    "机器学习-计算机知识/OpenAI Keys.md",
+    "大模型总结/ANSI编码.md",
+    "大模型总结/cURL.md",
+    "winget.md",
+    "api抓取.md",
+    "problem, Algorithm and Datastructure/basic_concepts/cpp_value_type.canvas",
+    "Content_type.canvas",
+    "problem, Algorithm and Datastructure/basic_concepts/printf格式化输出简单总结.md",
+    "problem, Algorithm and Datastructure/basic_concepts/类的继承权限问题.md",
+    "problem, Algorithm and Datastructure/basic_concepts/GNU 工具.md",
+    "python doc/Language Reference",
+    "python doc",
+    "_resources/box-moudel.png",
+    "_resources/str_operator.png",
     "动态_脚本语言/batch",
     "动态_脚本语言/powershell",
     "Pasted image 20240406224607.png",
@@ -188,7 +190,6 @@
     "MATLAB",
     "C++STL/Untitled",
     "C++STL",
-    "Algorithm and DataStructure",
-    "Questions"
+    "Algorithm and DataStructure"
   ]
 }

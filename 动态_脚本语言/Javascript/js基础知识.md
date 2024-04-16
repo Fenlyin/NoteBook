@@ -17,3 +17,10 @@ let i = 1; ({"name": a, "age": b})
 相当于python中的解包
 - `...iterable` 把iterable解包为以逗号分隔的seqence
 - `...seqence` 把seqence 合并为一个iterable，常用于函数的不定长参数
+
+## DOM
+DOM 模型将HTML文件描述为树结构，树的节点分为三种类型：元素节点、文本节点、属性节点。
+- `ele.childNodes` 返回元素的所有子元素节点、文本节点
+- `ele.children` 返回元素的所有子元素节点
+- `ele.attributes` 返回元素的所有属性节点
+
