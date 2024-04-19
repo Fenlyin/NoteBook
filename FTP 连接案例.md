@@ -1,3 +1,8 @@
+
+---
+mindmap-plugin: basic
+---
+
 # 需求
 有两台在同一局域网中的电脑，其中一台（linux）需要从另一台（windows11）中下载文件
 

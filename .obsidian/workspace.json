@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4d43ebb8ab8203a4",
+        "id": "2c9818e84fcedeaf",
         "type": "tabs",
         "children": [
           {
-            "id": "c8026de6714f1e92",
+            "id": "7d26b9c53b6a8764",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mindmapView",
               "state": {
-                "file": "动态_脚本语言/Javascript/内置类型属性与方法杂记.md",
-                "mode": "source",
-                "source": false
+                "file": "计网实验.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "动态_脚本语言/Javascript/内置类型属性与方法杂记.md",
+                "file": "计网实验.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "动态_脚本语言/Javascript/内置类型属性与方法杂记.md",
+                "file": "计网实验.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "动态_脚本语言/Javascript/内置类型属性与方法杂记.md"
+                "file": "计网实验.md"
               }
             }
           },
@@ -134,7 +132,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,39 +142,86 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c8026de6714f1e92",
+  "floating": {
+    "id": "e782e08b1515e451",
+    "type": "floating",
+    "children": [
+      {
+        "id": "8d06dc96b11cb3ee",
+        "type": "window",
+        "children": [
+          {
+            "id": "590d148ee45dee64",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "be74e75bc9a8f4be",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "Content_type.canvas",
+                    "viewState": {
+                      "x": 59,
+                      "y": -19,
+                      "zoom": 0
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1986,
+        "y": 137,
+        "width": 1677,
+        "height": 993,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "7d26b9c53b6a8764",
   "lastOpenFiles": [
-    "动态_脚本语言/Javascript/js基础知识.md",
-    "动态_脚本语言/Javascript/内置类型属性与方法杂记.md",
-    "README.md",
-    "动态_脚本语言/python/爬虫.md",
-    "动态_脚本语言/python/pandas 库.md",
-    "动态_脚本语言/python/os.path模块.md",
-    "动态_脚本语言/python/numpy.md",
-    "动态_脚本语言/python/matplot.md",
-    "git-linux/git基本操作.md",
-    "动态_脚本语言/python/tips.md",
-    "FTP 连接案例.md",
-    "动态_脚本语言/css/方法.md",
-    "动态_脚本语言/css/长度单位.md",
-    "动态_脚本语言/AutoHotkey/基础语法.md",
-    "动态_脚本语言/batch/脚本.md",
-    "动态_脚本语言/batch/命令.md",
-    "动态_脚本语言/batch/tips.md",
-    "动态_脚本语言/Shell.md",
-    "机器学习-计算机知识/OpenAI Keys.md",
-    "大模型总结/ANSI编码.md",
-    "大模型总结/cURL.md",
-    "winget.md",
-    "api抓取.md",
-    "problem, Algorithm and Datastructure/basic_concepts/cpp_value_type.canvas",
+    "Untitled.md",
+    "test.md",
+    "makefile syntax.md",
+    "VsCode 配置.md",
     "Content_type.canvas",
-    "problem, Algorithm and Datastructure/basic_concepts/printf格式化输出简单总结.md",
-    "problem, Algorithm and Datastructure/basic_concepts/类的继承权限问题.md",
-    "problem, Algorithm and Datastructure/basic_concepts/GNU 工具.md",
+    "机器学习-计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
+    "Excalidraw/Drawing 2024-04-19 23.40.43.excalidraw.md",
+    "机器学习-计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Excalidraw",
+    "README.md",
+    "api抓取.md",
+    "动态_脚本语言/Javascript/内置类型属性与方法杂记.md",
+    "动态_脚本语言/HTML/MM-HTML DOM.md",
+    "动态_脚本语言/HTML/标签.md",
+    "动态_脚本语言/Javascript/经验、技巧.md",
+    "Windows.md",
+    "动态_脚本语言/Javascript/js基础知识.md",
+    "计网实验.md",
+    "FTP 连接案例.md",
+    "动态_脚本语言/python/爬虫.md",
+    "动态_脚本语言/python/matplot.md",
+    "动态_脚本语言/python/pandas 库.md",
+    "动态_脚本语言/python/configparser.md",
+    "动态_脚本语言/python/os.path.md",
+    "动态_脚本语言/python/threading.md",
+    "动态_脚本语言/python/Pillow.md",
+    "动态_脚本语言/python/python基础知识.md",
+    "Opencv-python.md",
+    "渗透测试基本知识.md",
+    "problem, Algorithm and Datastructure/basic_concepts/cpp_value_type.canvas",
     "python doc/Language Reference",
     "python doc",
     "_resources/box-moudel.png",
@@ -187,9 +233,6 @@
     "Pasted image 20240406224423.png",
     "动态_脚本语言/Ruby",
     "English",
-    "MATLAB",
-    "C++STL/Untitled",
-    "C++STL",
-    "Algorithm and DataStructure"
+    "MATLAB"
   ]
 }
