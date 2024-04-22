@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2c9818e84fcedeaf",
+        "id": "4a201cdbfc195689",
         "type": "tabs",
         "children": [
           {
-            "id": "7d26b9c53b6a8764",
+            "id": "ad82f8a5703efffc",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "计网实验.md"
+                "file": "机器学习-计算机知识/OpenAI Keys.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -46,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "json",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计网实验.md",
+                "file": "机器学习-计算机知识/OpenAI Keys.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计网实验.md",
+                "file": "机器学习-计算机知识/OpenAI Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计网实验.md"
+                "file": "机器学习-计算机知识/OpenAI Keys.md"
               }
             }
           },
@@ -123,7 +125,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           }
@@ -132,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,93 +147,55 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "floating": {
-    "id": "e782e08b1515e451",
-    "type": "floating",
-    "children": [
-      {
-        "id": "8d06dc96b11cb3ee",
-        "type": "window",
-        "children": [
-          {
-            "id": "590d148ee45dee64",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "be74e75bc9a8f4be",
-                "type": "leaf",
-                "state": {
-                  "type": "canvas",
-                  "state": {
-                    "file": "Content_type.canvas",
-                    "viewState": {
-                      "x": 59,
-                      "y": -19,
-                      "zoom": 0
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1986,
-        "y": 137,
-        "width": 1677,
-        "height": 993,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "7d26b9c53b6a8764",
+  "active": "ad82f8a5703efffc",
   "lastOpenFiles": [
-    "Untitled.md",
+    "git-linux/linux/linux 软件级知识.md",
+    "git-linux/linux/linux 系统与硬件级知识.md",
+    "git-linux/linux/linux 基础命令.md",
+    "problem, Algorithm and Datastructure/templates/计算.md",
+    "problem, Algorithm and Datastructure/templates",
+    "大模型总结/cURL.md",
     "test.md",
-    "makefile syntax.md",
-    "VsCode 配置.md",
+    "Excalidraw/Scripts/Downloaded/Uniform size.md",
+    "Excalidraw/Scripts/Downloaded/Uniform size.svg",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.svg",
+    "Excalidraw/Scripts/Downloaded/Fixed spacing.svg",
+    "Excalidraw/Scripts/Downloaded/Fixed spacing.md",
+    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg",
+    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.md",
+    "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.svg",
+    "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.md",
+    "大模型总结/ANSI编码.md",
+    "Excalidraw/Scripts/Downloaded/Mindmap format.svg",
+    "Excalidraw/Scripts/Downloaded/Mindmap format.md",
+    "MATLAB/有用的函数.md",
+    "api抓取.md",
+    "README.md",
     "Content_type.canvas",
-    "机器学习-计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
-    "Excalidraw/Drawing 2024-04-19 23.40.43.excalidraw.md",
-    "机器学习-计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
+    "VsCode 配置.md",
+    "makefile syntax.md",
+    "FTP 连接案例.md",
+    "数据库/mysql 基础知识.md",
+    "数据库/mysql语句速查.md",
+    "Opencv-python.md",
+    "数据库",
+    "机器学习-计算机知识/Windows.md",
+    "机器学习-计算机知识/计算机相关知识.md",
+    "动态_脚本语言/Shell.md",
+    "git-linux/linux/kali渗透测试.md",
+    "problem, Algorithm and Datastructure/basic_concepts/cpp_value_type.canvas",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
+    "机器学习-计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
+    "机器学习-计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Excalidraw",
-    "README.md",
-    "api抓取.md",
-    "动态_脚本语言/Javascript/内置类型属性与方法杂记.md",
-    "动态_脚本语言/HTML/MM-HTML DOM.md",
-    "动态_脚本语言/HTML/标签.md",
-    "动态_脚本语言/Javascript/经验、技巧.md",
-    "Windows.md",
-    "动态_脚本语言/Javascript/js基础知识.md",
-    "计网实验.md",
-    "FTP 连接案例.md",
-    "动态_脚本语言/python/爬虫.md",
-    "动态_脚本语言/python/matplot.md",
-    "动态_脚本语言/python/pandas 库.md",
-    "动态_脚本语言/python/configparser.md",
-    "动态_脚本语言/python/os.path.md",
-    "动态_脚本语言/python/threading.md",
-    "动态_脚本语言/python/Pillow.md",
-    "动态_脚本语言/python/python基础知识.md",
-    "Opencv-python.md",
-    "渗透测试基本知识.md",
-    "problem, Algorithm and Datastructure/basic_concepts/cpp_value_type.canvas",
     "python doc/Language Reference",
     "python doc",
     "_resources/box-moudel.png",
-    "_resources/str_operator.png",
     "动态_脚本语言/batch",
     "动态_脚本语言/powershell",
-    "Pasted image 20240406224607.png",
-    "Pasted image 20240406224520.png",
-    "Pasted image 20240406224423.png",
-    "动态_脚本语言/Ruby",
-    "English",
-    "MATLAB"
+    "动态_脚本语言/Ruby"
   ]
 }

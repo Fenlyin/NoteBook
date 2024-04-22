@@ -95,7 +95,95 @@
   "mdFontColor": "Black",
   "mdBorderColor": "Black",
   "mdCSS": "",
-  "scriptEngineSettings": {},
+  "scriptEngineSettings": {
+    "Downloaded/Auto Layout": {
+      "Layout Options JSON": {
+        "height": "450px",
+        "value": "{\n      \"org.eclipse.elk.layered.crossingMinimization.semiInteractive\": \"true\",\n      \"org.eclipse.elk.layered.considerModelOrder.components\": \"FORCE_MODEL_ORDER\"\n}",
+        "description": "You can use layout options to configure the layout algorithm. A list of all options and further details of their exact effects is available in <a href=\"http://www.eclipse.org/elk/reference.html\" rel=\"nofollow\">ELK's documentation</a>."
+      }
+    },
+    "Downloaded/Mindmap format": {
+      "MindMap Format": {
+        "value": "Excalidraw/MindMap Format",
+        "description": "This is prepared for the namespace of MindMap Format and does not need to be modified"
+      },
+      "default gap": {
+        "value": 10,
+        "description": "Interval size of element"
+      },
+      "curve length": {
+        "value": 40,
+        "description": "The length of the curve part in the mind map line"
+      },
+      "length between element and line": {
+        "value": 50,
+        "description": "The distance between the tail of the connection and the connecting elements of the mind map"
+      }
+    },
+    "Downloaded/Text to Sticky Notes": {
+      "Border color": {
+        "value": "black",
+        "description": "Any legal HTML color (#000000, rgb, color-name, etc.). Set to 'transparent' for transparent color."
+      },
+      "Background color": {
+        "value": "gold",
+        "description": "Background color of the sticky note. Set to 'transparent' for transparent color."
+      },
+      "Background fill style": {
+        "value": "solid",
+        "description": "Fill style of the sticky note",
+        "valueset": [
+          "hachure",
+          "cross-hatch",
+          "solid"
+        ]
+      },
+      "Max sticky note width": {
+        "value": "600",
+        "description": "Maximum width of new sticky note. If text is longer, it will be wrapped",
+        "valueset": [
+          "400",
+          "600",
+          "800",
+          "1000",
+          "1200",
+          "1400",
+          "2000"
+        ]
+      },
+      "Sticky note width": {
+        "value": "100",
+        "description": "Preferred width of the sticky note. Set to 0 if unset."
+      },
+      "Sticky note height": {
+        "value": "120",
+        "description": "Preferred height of the sticky note. Set to 0 if unset."
+      },
+      "Rows per column": {
+        "value": "3",
+        "description": "If multiple text elements are converted to sticky notes in one step, how many rows before a next column is created. Only effective if fixed width & height are given. 0 for unset."
+      },
+      "Gap": {
+        "value": "10",
+        "description": "Gap between rows and columns"
+      }
+    },
+    "Downloaded/Normalize Selected Arrows": {
+      "Gap": {
+        "value": 8,
+        "description": "The value of the gap between the connection line and the element, which must be greater than 0. If you want the connector to be next to the element, set it to 1."
+      }
+    },
+    "Downloaded/Fixed spacing": {
+      "Prompt for spacing?": true,
+      "Default spacing": {
+        "value": 10,
+        "description": "Fixed horizontal spacing between elements"
+      },
+      "Remember last spacing?": false
+    }
+  },
   "defaultTrayMode": false,
   "previousRelease": "2.1.4",
   "showReleaseNotes": true,
@@ -103,7 +191,11 @@
   "latexBoilerplate": "\\color{blue}",
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
-  "pinnedScripts": [],
+  "pinnedScripts": [
+    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
+    "Excalidraw/Scripts/Downloaded/Mindmap format.md",
+    "Excalidraw/Scripts/Downloaded/Uniform size.md"
+  ],
   "customPens": [
     {
       "type": "default",
