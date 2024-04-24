@@ -11,7 +11,8 @@
 ### 日志
 
 `git log` 查看提交日志
-`git blae <file>` 按行查看指定文件的修改历史
+`git blam <file>` 按行查看指定文件的修改历史
+`git log --graph` 以树型方式显示各分支提交历史
 ### 分支管理
 - `git branch` 列出所有分支
 - `git branch <branchname>` 创建分支
