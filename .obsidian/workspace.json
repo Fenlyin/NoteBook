@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "4a201cdbfc195689",
+        "id": "46e47094fe93bb9e",
         "type": "tabs",
         "children": [
           {
-            "id": "ad82f8a5703efffc",
+            "id": "eb5e8a0d5b14bc0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习-计算机知识/OpenAI Keys.md",
+                "file": "计网实验.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "141d224459e6c3d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git-linux/git基本操作.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习-计算机知识/OpenAI Keys.md",
+                "file": "git-linux/git基本操作.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "机器学习-计算机知识/OpenAI Keys.md",
+                "file": "git-linux/git基本操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习-计算机知识/OpenAI Keys.md"
+                "file": "git-linux/git基本操作.md"
               }
             }
           },
@@ -147,15 +160,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ad82f8a5703efffc",
+  "active": "141d224459e6c3d5",
   "lastOpenFiles": [
+    "Drawing 2024-04-24 15.04.01.excalidraw.md",
+    "计网实验.md",
+    "test.md",
+    "git-linux/git基本操作.md",
+    "makefile syntax.md",
+    "java getter和setter优势.md",
+    "刷机.md",
+    "FTP 连接案例.md",
+    "渗透测试基本知识.md",
+    "Opencv-python.md",
+    "api抓取.md",
+    "机器学习-计算机知识/OpenAI Keys.md",
     "git-linux/linux/linux 软件级知识.md",
     "git-linux/linux/linux 系统与硬件级知识.md",
     "git-linux/linux/linux 基础命令.md",
     "problem, Algorithm and Datastructure/templates/计算.md",
     "problem, Algorithm and Datastructure/templates",
     "大模型总结/cURL.md",
-    "test.md",
     "Excalidraw/Scripts/Downloaded/Uniform size.md",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
     "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md",
@@ -170,20 +194,9 @@
     "Excalidraw/Scripts/Downloaded/Mindmap format.svg",
     "Excalidraw/Scripts/Downloaded/Mindmap format.md",
     "MATLAB/有用的函数.md",
-    "api抓取.md",
     "README.md",
     "Content_type.canvas",
-    "VsCode 配置.md",
-    "makefile syntax.md",
-    "FTP 连接案例.md",
-    "数据库/mysql 基础知识.md",
-    "数据库/mysql语句速查.md",
-    "Opencv-python.md",
     "数据库",
-    "机器学习-计算机知识/Windows.md",
-    "机器学习-计算机知识/计算机相关知识.md",
-    "动态_脚本语言/Shell.md",
-    "git-linux/linux/kali渗透测试.md",
     "problem, Algorithm and Datastructure/basic_concepts/cpp_value_type.canvas",
     "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
     "机器学习-计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
