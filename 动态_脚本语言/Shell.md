@@ -18,7 +18,7 @@ x = 1  # 最好不要使用这种风格
 str1="hello"
 readonly str1
 # 使用readonly关键字声明变量的只读属性
-# 如果先readonly再初始化，这是不行的，因为已经readonly了
+# 如果先readonly再初始化，这是不行的，因为已经readonly了, 即声明时必须初始化
 ```
 ##### 删除变量
 - `unset x` 使用unset关键字
@@ -141,8 +141,8 @@ echo [$a+$b] // 不能有多余空格
 - `-L` 判断文件是否存在并且是一个符号链接
 
 ### echo命令
-- `echo -e "hello world\n` 开启转义，输出换行。类似于行换这种，必须要在双引号中
-- `echo '$str\n` 输出：`$str\n` 输出原样字符，使用单引号
+- `echo -e "hello world\n"` 开启转义，输出换行。类似于行换这种，必须要在双引号中
+- `echo '$str\n'` 输出：`$str\n` 输出原样字符，使用单引号
 ### printf命令
 ### 流程控制
 ##### if-else if-else

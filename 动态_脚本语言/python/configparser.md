@@ -17,5 +17,6 @@
 ``` python
 with open('config.ini', 'w') as configfile: 
 	config_obj.write(configfile)
-# 'a'模式，全部覆盖
+# 'w'模式，全部覆盖
+# 'a'模式，追加
 ```
