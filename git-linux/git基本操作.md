@@ -7,7 +7,7 @@
 - `git rm <file>` 将文件从工作区和index区删除
 - `git reset` `git restore <file>` 回退版本并忽略修改。对某个文件修改后如果想要撤销，则应先reset，然后restore。
 - `git mv` 等价于`mv`
-- `git checkout -- <file>` 将file加入index后，如果想撤销修改，也可以使用此命令
+- `git checkout --<file>` 将file加入index后，如果想撤销修改，也可以使用此命令
 ### 日志
 
 `git log` 查看提交日志
