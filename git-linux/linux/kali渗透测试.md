@@ -1,3 +1,9 @@
+---
+tags:
+  - linux
+  - kali
+---
+
 ### 基于木马的渗透一般流程：
 
 > 1. 使用msfvenom<mark>生成</mark>木马

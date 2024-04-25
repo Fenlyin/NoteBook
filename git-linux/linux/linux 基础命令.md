@@ -1,3 +1,8 @@
+---
+tags:
+  - "#linux"
+---
+
 ### tee
 **Command:**`tee [options] file [输出重定向]`
 **Options:**
