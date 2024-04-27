@@ -9,7 +9,7 @@ tags:
 -  (3) Protected ：该类内部和继承类中可以访问。
 -  (4) internal : 同一个程序集的对象可以访问。
 -  (5) Protected internal ：3 和 4 的并集，符合任意一条都可以访问。
-[CSharp权限.excalidraw](CSharp权限.excalidraw.md)
+[CSharp权限](CSharp权限.md)
 
 # 函数参数传递方式
 ### 值传递

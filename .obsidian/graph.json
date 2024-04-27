@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
-  "search": "tag:#linux  ",
-  "showTags": true,
+  "search": "",
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
@@ -10,13 +10,13 @@
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 0.916666666666667,
-  "lineSizeMultiplier": 2.44791666666667,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.546875,
-  "repelStrength": 12.1875,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.660022793963798,
+  "scale": 0.6024013046815703,
   "close": false
 }
