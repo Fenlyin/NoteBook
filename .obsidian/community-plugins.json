@@ -1,6 +1,6 @@
 [
   "obsidian-excalidraw-plugin",
-  "obsidian-mind-map",
   "highlightr-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "heading-level-indent"
 ]

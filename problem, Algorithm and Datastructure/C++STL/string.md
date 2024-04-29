@@ -1,5 +1,5 @@
 ### string to number
-``` c++
+```cpp
 std::stoi(s); // string to int
 std::stol(s); // strint to long
 std::stoll(s);// string to long long 
@@ -12,7 +12,7 @@ std::stoi(str, pos, base) //base指定了str代表的数为几进制
 ```
 
 ### number to string
-``` c++
+```cpp
 int a = 100;
 double b = 3.1415926;
 cout << std::to_string(a) << endl
@@ -23,7 +23,7 @@ cout << std::to_string(a) << endl
 ### 大小写转换
 
 ##### 只能转换单个字符
-``` c++
+``` cpp
 using namespace std;
 
 // int toupper(char ch);
@@ -34,7 +34,7 @@ int ch = toupper('a'); // ch: 97
 ```
 
 ##### 转化整个字符串的一种实现
-``` c++
+``` cpp
 using namespace std;
 string s = "hello";
 string upper(s.size(), '\0'); // 不初始化 upper.size() 将会是 0

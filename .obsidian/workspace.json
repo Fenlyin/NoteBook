@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c89a347248b08faa",
+        "id": "d3b4c3b07825bf8e",
         "type": "tabs",
         "children": [
           {
-            "id": "7737c265703fda94",
+            "id": "ce0b350a83655a0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计网实验.md",
+                "file": "动态_脚本语言/css/弹性盒子  flexbox.md",
                 "mode": "preview",
                 "source": false
               }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 227.5
   },
   "right": {
     "id": "89ba1907fdc4a3a8",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计网实验.md",
+                "file": "动态_脚本语言/css/弹性盒子  flexbox.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计网实验.md",
+                "file": "动态_脚本语言/css/弹性盒子  flexbox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,18 +106,30 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计网实验.md"
+                "file": "动态_脚本语言/css/弹性盒子  flexbox.md"
               }
             }
           },
           {
-            "id": "f2257fb55d3fae2e",
+            "id": "79f2d8db15d65243",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "a93aafd90b240a8d",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
             }
           }
@@ -126,48 +138,56 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
+      "daily-notes:Open today's daily note": true,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "command-palette:Open command palette": true,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7737c265703fda94",
+  "active": "ce0b350a83655a0b",
   "lastOpenFiles": [
-    "ExcalidrawTest.md",
-    "problem, Algorithm and Datastructure/BigNum.md",
-    "problem, Algorithm and Datastructure/templates/计算.md",
-    "笔记规范.md",
-    "api抓取.md",
-    "README.md",
-    "VsCode 配置.md",
-    "makefile syntax.md",
-    "刷机.md",
-    "java getter和setter优势.md",
+    "动态_脚本语言/css/Excalidraw/main-start-end.md",
+    "动态_脚本语言/css/弹性盒子  flexbox.md",
+    "动态_脚本语言/css/Excalidraw",
+    "Excalidraw/Drawing 2024-04-28 21.44.52.excalidraw.md",
+    "Excalidraw/Drawing 2024-04-28 21.45.24.excalidraw.md",
+    "Excalidraw/Drawing 2024-04-28 21.46.18.excalidraw.md",
+    "vim/vim高阶操作.md",
+    "机器学习-计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
+    "机器学习-计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
+    "动态_脚本语言/Shell.md",
+    "动态_脚本语言/css/_resources",
+    "动态_脚本语言/css/_resources/justify-content.png",
+    "Makefile.md",
     "动态_脚本语言/css/属性.md",
     "动态_脚本语言/css/长度单位.md",
-    "problem, Algorithm and Datastructure/basic_concepts/指针常量与常量指针.md",
-    "problem, Algorithm and Datastructure/basic_concepts/基本数据类型.md",
-    "problem, Algorithm and Datastructure/basic_concepts/cin 输入.md",
-    "problem, Algorithm and Datastructure/basic_concepts/优先队列中仿函数的理解.md",
-    "problem, Algorithm and Datastructure/basic_concepts/printf格式化输出简单总结.md",
-    "problem, Algorithm and Datastructure/basic_concepts/GNU 工具.md",
-    "problem, Algorithm and Datastructure/basic_concepts/Cpp Expression.md",
-    "动态_脚本语言/Shell.md",
-    "problem, Algorithm and Datastructure/basic_concepts/类的继承权限问题.md",
+    "动态_脚本语言/css/css属性.md",
+    "FTP 连接案例.md",
+    "Opencv-python.md",
+    "ExcalidrawTest.md",
+    "计网实验.md",
+    "刷机.md",
+    "java getter和setter优势.md",
+    "笔记规范.md",
+    "机器学习.md",
+    "高等数学.md",
+    "线性代数.md",
+    "渗透测试基本知识.md",
+    "Test Page.md",
+    "参考文献引用格式.md",
+    "heightlight.md",
+    "excalidraw 24-04-28 09.46.02.ex",
+    "excalidraw 24-04-28 09.45.06.ex",
+    "excalidraw 24-04-28 09.44.31.ex",
+    "node",
+    "概率论",
     "problem, Algorithm and Datastructure/basic_concepts/cpp_value_type.canvas",
-    "problem, Algorithm and Datastructure/basic_concepts/头文件、库文件搜索问题.md",
-    "动态_脚本语言/AutoHotkey/基础语法.md",
-    "git-linux/linux/linux 系统与硬件级知识.md",
-    "git-linux/linux/linux 软件级知识.md",
-    "git-linux/linux/linux 基础命令.md",
     "CSharp",
     "problem, Algorithm and Datastructure/templates",
     "Excalidraw/Scripts/Downloaded/Uniform size.svg",
@@ -178,16 +198,6 @@
     "Excalidraw/Scripts/Downloaded/Mindmap format.svg",
     "Content_type.canvas",
     "数据库",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
-    "机器学习-计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
-    "机器学习-计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "Excalidraw",
-    "python doc/Language Reference",
-    "python doc",
-    "_resources/box-moudel.png",
-    "动态_脚本语言/batch",
-    "动态_脚本语言/powershell"
+    "Excalidraw/Scripts/Downloaded/Auto Layout.svg"
   ]
 }

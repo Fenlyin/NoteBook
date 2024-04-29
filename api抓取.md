@@ -1,4 +1,4 @@
-### post payload data type
+# post payload data type
 1. `json data`
 2. `form data`
 3. `parameter`

@@ -1,3 +1,10 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "enabledCssSnippets": [],
+  "baseFontSize": 18,
+  "textFontFamily": "Times New Roman",
+  "monospaceFontFamily": "Cascadia Mono",
+  "interfaceFontFamily": "NSimSun",
+  "cssTheme": "GitHub Theme",
+  "theme": "moonstone"
 }

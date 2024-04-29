@@ -1,0 +1,12 @@
+ .graph-view.color-class {
+	/* 支持所有 css 颜色指令，如 #HEX, rgb and rgba */
+	color:   #FFF;
+	color:   #FFFFFF;
+	color:   rgb(0, 0, 0);
+	color:   rgba(0, 0, 0, 1);
+	/* 透明度（类似于RGBA）将使颜色透明 */
+	opacity: 0.5;
+}
+p{
+	font-family: 'Times New Roman', Times, serif;
+}
