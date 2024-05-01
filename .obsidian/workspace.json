@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d3b4c3b07825bf8e",
+        "id": "17fcf03614b98c74",
         "type": "tabs",
         "children": [
           {
-            "id": "ce0b350a83655a0b",
+            "id": "680bbbf89d178569",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "动态_脚本语言/css/弹性盒子  flexbox.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mysql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "动态_脚本语言/css/弹性盒子  flexbox.md",
+                "file": "ExcalidrawTest.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -94,7 +90,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "动态_脚本语言/css/弹性盒子  flexbox.md",
+                "file": "ExcalidrawTest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "动态_脚本语言/css/弹性盒子  flexbox.md"
+                "file": "ExcalidrawTest.md"
               }
             }
           },
@@ -150,54 +146,55 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ce0b350a83655a0b",
+  "active": "a2aa65d75fa7daa2",
   "lastOpenFiles": [
-    "动态_脚本语言/css/Excalidraw/main-start-end.md",
-    "动态_脚本语言/css/弹性盒子  flexbox.md",
-    "动态_脚本语言/css/Excalidraw",
-    "Excalidraw/Drawing 2024-04-28 21.44.52.excalidraw.md",
-    "Excalidraw/Drawing 2024-04-28 21.45.24.excalidraw.md",
-    "Excalidraw/Drawing 2024-04-28 21.46.18.excalidraw.md",
-    "vim/vim高阶操作.md",
-    "机器学习-计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
-    "机器学习-计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
-    "动态_脚本语言/Shell.md",
-    "动态_脚本语言/css/_resources",
-    "动态_脚本语言/css/_resources/justify-content.png",
-    "Makefile.md",
-    "动态_脚本语言/css/属性.md",
-    "动态_脚本语言/css/长度单位.md",
-    "动态_脚本语言/css/css属性.md",
-    "FTP 连接案例.md",
-    "Opencv-python.md",
-    "ExcalidrawTest.md",
-    "计网实验.md",
     "刷机.md",
     "java getter和setter优势.md",
-    "笔记规范.md",
-    "机器学习.md",
-    "高等数学.md",
-    "线性代数.md",
-    "渗透测试基本知识.md",
-    "Test Page.md",
-    "参考文献引用格式.md",
-    "heightlight.md",
+    "机器学习/机器学习.md",
+    "机器学习/百分位数.md",
+    "计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
+    "计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
+    "计算机知识/浅谈图片像素_分辨率.md",
+    "计算机知识/数据存储格式.md",
+    "计算机知识/Windows技巧.md",
+    "problem, Algorithm and Datastructure/Problem/问题记录.md",
+    "problem, Algorithm and Datastructure/Problem/大纲.md",
+    "problem, Algorithm and Datastructure/BigNum.md",
+    "linux/Tips.md",
+    "git/git基本操作.md",
+    "git/一些理解与心得.md",
+    "linux/_resources/img1.png",
+    "linux/_resources/logic.png",
+    "linux/_resources/suan_shu.png",
+    "linux/_resources/guan_xi_1.png",
+    "Math",
+    "数据库/mysql 基础知识.md",
+    "数据库/link/link.md",
+    "Math/线性代数.md",
+    "数据库/mysql语句速查.md",
+    "数据库/link",
+    "数据库/_resources/table_structure.png",
+    "数据库/_resources",
+    "解释型编程语言/HTML/tag summary.md",
+    "解释型编程语言/HTML/link/link.md",
+    "Excalidraw/Drawing 2024-04-28 21.46.18.excalidraw.md",
+    "Excalidraw/Drawing 2024-04-28 21.44.52.excalidraw.md",
+    "Excalidraw/Drawing 2024-04-28 21.45.24.excalidraw.md",
+    "linux/linux 软件级知识.md",
+    "linux/linux 系统与硬件级知识.md",
+    "linux/linux 基础命令.md",
+    "linux/kali渗透测试.md",
+    "解释型编程语言/css/_resources/box-moudel.png",
+    "解释型编程语言/HTML/link",
+    "解释型编程语言/css/link",
+    "解释型编程语言/css/_resources/floatDemo.png",
+    "解释型编程语言/css/Excalidraw",
+    "解释型编程语言/css/_resources",
+    "解释型编程语言/css/_resources/justify-content.png",
     "excalidraw 24-04-28 09.46.02.ex",
     "excalidraw 24-04-28 09.45.06.ex",
     "excalidraw 24-04-28 09.44.31.ex",
-    "node",
-    "概率论",
     "problem, Algorithm and Datastructure/basic_concepts/cpp_value_type.canvas",
-    "CSharp",
-    "problem, Algorithm and Datastructure/templates",
-    "Excalidraw/Scripts/Downloaded/Uniform size.svg",
-    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.svg",
-    "Excalidraw/Scripts/Downloaded/Fixed spacing.svg",
-    "Excalidraw/Scripts/Downloaded/Normalize Selected Arrows.svg",
-    "Excalidraw/Scripts/Downloaded/Text to Sticky Notes.svg",
-    "Excalidraw/Scripts/Downloaded/Mindmap format.svg",
-    "Content_type.canvas",
-    "数据库",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.svg"
+    "Content_type.canvas"
   ]
 }

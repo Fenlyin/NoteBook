@@ -22,6 +22,5 @@ tag[attr] {
 // 选择存在 attr 属性且值为 value 的 tag 元素
 ```
 
-# 表单
-## form 元素
-- `action` 该属性表示表单最终要提交到何处，由 `submit` 类型的 `input` 元素触发
+
+
