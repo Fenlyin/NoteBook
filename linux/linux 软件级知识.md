@@ -70,7 +70,7 @@ tags:
   
 	
 
-## screen简单理解
+# screen简单理解
 
 ### 新建虚拟终端
   - screen \[-S|-R name]
@@ -179,3 +179,5 @@ linux中链接文件分为软链接（符号链接）和硬链接。
 `mkfs.<type> partition` 
 `mkfs -t <type> partition`
 格式化分区为type类型的文件系统
+
+

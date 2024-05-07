@@ -16,6 +16,7 @@ Key=Peter, Value=35
 Key=Ben, Value=37  
 Key=Joe, Value=43
 */
+
 /*--------------------*/
 foreach($age as $x) { // 变量只有一个时，不同于python，php遍历值，而python遍历键
 echo $x;

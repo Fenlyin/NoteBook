@@ -11,11 +11,28 @@
             "id": "680bbbf89d178569",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "计算机知识/计算机相关知识.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f4552e1f7c86bbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件工程/软件设计过程.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mysql",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 227.5,
+    "collapsed": true
   },
   "right": {
     "id": "89ba1907fdc4a3a8",
@@ -73,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ExcalidrawTest.md",
+                "file": "软件工程/软件设计过程.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -90,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ExcalidrawTest.md",
+                "file": "软件工程/软件设计过程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ExcalidrawTest.md"
+                "file": "软件工程/软件设计过程.md"
               }
             }
           },
@@ -134,7 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 231.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,44 +164,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a2aa65d75fa7daa2",
+  "active": "3f4552e1f7c86bbb",
   "lastOpenFiles": [
+    "计算机知识/计算机相关知识.md",
+    "软件工程/软件设计过程.md",
+    "大模型总结/ANSI编码.md",
+    "软件工程",
+    "计算机知识/Windows技巧.md",
+    "Linux/linux 软件级知识.md",
+    "Linux/Tips.md",
+    "Linux/kali渗透测试.md",
+    "Linux/linux 基础命令.md",
+    "Linux/linux 系统与硬件级知识.md",
+    "Java/Java.md",
+    "Java/java getter和setter优势.md",
+    "Test Page.md",
+    "Java",
+    "Math/高等数学.md",
+    "Math/线性代数.md",
+    "README.md",
+    "api抓取.md",
+    "VsCode 配置.md",
+    "计网实验.md",
+    "ExcalidrawTest.md",
     "刷机.md",
-    "java getter和setter优势.md",
-    "机器学习/机器学习.md",
-    "机器学习/百分位数.md",
+    "计算机知识/Turing Machine and Turing Complete.md",
+    "解释型编程语言/Powershell/命令.md",
+    "计算机知识/浅谈图片像素_分辨率.md",
+    "计算机知识/英制、公制转换.md",
+    "解释型编程语言/css/属性.md",
+    "解释型编程语言/css/css属性.md",
     "计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
     "计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
-    "计算机知识/浅谈图片像素_分辨率.md",
-    "计算机知识/数据存储格式.md",
-    "计算机知识/Windows技巧.md",
-    "problem, Algorithm and Datastructure/Problem/问题记录.md",
-    "problem, Algorithm and Datastructure/Problem/大纲.md",
-    "problem, Algorithm and Datastructure/BigNum.md",
-    "linux/Tips.md",
-    "git/git基本操作.md",
-    "git/一些理解与心得.md",
-    "linux/_resources/img1.png",
-    "linux/_resources/logic.png",
-    "linux/_resources/suan_shu.png",
-    "linux/_resources/guan_xi_1.png",
+    "Linux/_resources/img1.png",
+    "Linux/_resources/logic.png",
+    "Linux/_resources/suan_shu.png",
+    "Linux/_resources/guan_xi_1.png",
     "Math",
-    "数据库/mysql 基础知识.md",
-    "数据库/link/link.md",
-    "Math/线性代数.md",
-    "数据库/mysql语句速查.md",
     "数据库/link",
     "数据库/_resources/table_structure.png",
     "数据库/_resources",
-    "解释型编程语言/HTML/tag summary.md",
-    "解释型编程语言/HTML/link/link.md",
-    "Excalidraw/Drawing 2024-04-28 21.46.18.excalidraw.md",
-    "Excalidraw/Drawing 2024-04-28 21.44.52.excalidraw.md",
-    "Excalidraw/Drawing 2024-04-28 21.45.24.excalidraw.md",
-    "linux/linux 软件级知识.md",
-    "linux/linux 系统与硬件级知识.md",
-    "linux/linux 基础命令.md",
-    "linux/kali渗透测试.md",
     "解释型编程语言/css/_resources/box-moudel.png",
     "解释型编程语言/HTML/link",
     "解释型编程语言/css/link",
@@ -192,8 +212,6 @@
     "解释型编程语言/css/_resources",
     "解释型编程语言/css/_resources/justify-content.png",
     "excalidraw 24-04-28 09.46.02.ex",
-    "excalidraw 24-04-28 09.45.06.ex",
-    "excalidraw 24-04-28 09.44.31.ex",
     "problem, Algorithm and Datastructure/basic_concepts/cpp_value_type.canvas",
     "Content_type.canvas"
   ]

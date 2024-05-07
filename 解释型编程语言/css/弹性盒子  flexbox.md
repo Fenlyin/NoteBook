@@ -23,3 +23,17 @@
 - `space-around` 弹性项目平均分布在一行，要求首位元素的外边距线到 `main-start` 和 `main-end` 的距离要为元素之间距离的一半
 
 ![justify-content](justify-content.png)
+
+### align-items
+`align-items: flex-start | flex-end | center | baselline | stretch`
+- `baseline` 
+- `strrtch`
+
+### flex-wrap
+指定元素的换行方式。在弹性盒子中，默认只有一行以容纳元素，通过该属性，可以使元素换行。
+`flex-wrap: nowrap(default) | wrap | wrap-reverse`
+- `nowrap` 默认值，不换行
+- `wrap` 换行
+- `wrap-reverse` 反转行，第一行将会在容器最底部。
+
+
