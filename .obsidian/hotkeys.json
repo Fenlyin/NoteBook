@@ -18,20 +18,21 @@
   "obsidian-excalidraw-plugin:insert-link": [],
   "obsidian-excalidraw-plugin:save": [],
   "graph:open": [],
-  "graph:open-local": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "G"
-    }
-  ],
   "editor:toggle-code": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "`"
+    }
+  ],
+  "workspace:new-tab": [],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
     }
   ]
 }

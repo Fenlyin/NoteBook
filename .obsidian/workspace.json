@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "17fcf03614b98c74",
+        "id": "c40d92bd772847b3",
         "type": "tabs",
         "children": [
           {
-            "id": "680bbbf89d178569",
+            "id": "384b84ef32f67ec0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机知识/计算机相关知识.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f4552e1f7c86bbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件工程/软件设计过程.md",
+                "file": "前端/Vue/基础知识.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -45,16 +32,6 @@
         "id": "c0c510438ec83f3b",
         "type": "tabs",
         "children": [
-          {
-            "id": "a2aa65d75fa7daa2",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "byCreatedTime"
-              }
-            }
-          },
           {
             "id": "9f90c4f0e541cc91",
             "type": "leaf",
@@ -69,13 +46,23 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "5a4f806d51b344d5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 227.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "89ba1907fdc4a3a8",
@@ -91,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件工程/软件设计过程.md",
+                "file": "前端/Vue/基础知识.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -108,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件工程/软件设计过程.md",
+                "file": "前端/Vue/基础知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件工程/软件设计过程.md"
+                "file": "前端/Vue/基础知识.md"
               }
             }
           },
@@ -164,54 +151,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3f4552e1f7c86bbb",
+  "active": "384b84ef32f67ec0",
   "lastOpenFiles": [
-    "计算机知识/计算机相关知识.md",
-    "软件工程/软件设计过程.md",
-    "大模型总结/ANSI编码.md",
-    "软件工程",
-    "计算机知识/Windows技巧.md",
-    "Linux/linux 软件级知识.md",
-    "Linux/Tips.md",
-    "Linux/kali渗透测试.md",
-    "Linux/linux 基础命令.md",
-    "Linux/linux 系统与硬件级知识.md",
-    "Java/Java.md",
-    "Java/java getter和setter优势.md",
-    "Test Page.md",
-    "Java",
-    "Math/高等数学.md",
-    "Math/线性代数.md",
-    "README.md",
+    "前端/Javascript/经验、技巧.md",
+    "前端/Javascript/内置类型属性与方法杂记.md",
+    "前端/CSS/长度单位.md",
+    "前端/CSS/Excalidraw/main-start-end.md",
+    "前端/CSS/弹性盒子  flexbox.md",
+    "概率论与数理统计/probability.md",
+    "概率论与数理统计/概率论相关函数.md",
+    "计算机网络/基础知识.md",
+    "计算机组成原理",
+    "计算机网络/_resources/IP数据报首部格式.png",
+    "计算机网络/_resources/Excalidraw.md",
+    "计算机网络/_resources",
+    "计算机网络/FTP 连接案例.md",
     "api抓取.md",
-    "VsCode 配置.md",
+    "计算机网络",
+    "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
+    "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.md",
+    "Markdown Strict Syntax.md",
+    "Excalidraw/Scripts/Downloaded/Organic Line Legacy.svg",
+    "Excalidraw/Scripts/Downloaded/Organic Line Legacy.md",
+    "Font/Muyao-Softbrush-2.ttf",
+    "Font",
+    "Makefile.md",
+    "Pasted Image 20240529233256_437.png",
+    "Untitled.md",
+    "Untitled Diagram.svg",
+    "笔记规范.md",
+    "problem, Algorithm and Datastructure/templates/计算.md",
+    "参考文献引用格式.md",
+    "解释型编程语言/AutoHotkey/基础语法.md",
+    "CSharp/Csharp 基础知识.md",
+    "CSharp/CSharp权限.md",
+    "渗透测试基本知识.md",
     "计网实验.md",
-    "ExcalidrawTest.md",
-    "刷机.md",
-    "计算机知识/Turing Machine and Turing Complete.md",
-    "解释型编程语言/Powershell/命令.md",
-    "计算机知识/浅谈图片像素_分辨率.md",
-    "计算机知识/英制、公制转换.md",
-    "解释型编程语言/css/属性.md",
-    "解释型编程语言/css/css属性.md",
+    "VsCode 配置.md",
+    "Test Page.md",
+    "Node/Pasted image 20240529225347.png",
+    "Unity3D",
+    "templates",
+    "New folder",
+    "Python第三方库/Pygame",
+    "Python第三方库",
     "计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
     "计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
     "Linux/_resources/img1.png",
     "Linux/_resources/logic.png",
-    "Linux/_resources/suan_shu.png",
-    "Linux/_resources/guan_xi_1.png",
-    "Math",
-    "数据库/link",
-    "数据库/_resources/table_structure.png",
-    "数据库/_resources",
-    "解释型编程语言/css/_resources/box-moudel.png",
-    "解释型编程语言/HTML/link",
-    "解释型编程语言/css/link",
-    "解释型编程语言/css/_resources/floatDemo.png",
-    "解释型编程语言/css/Excalidraw",
-    "解释型编程语言/css/_resources",
-    "解释型编程语言/css/_resources/justify-content.png",
-    "excalidraw 24-04-28 09.46.02.ex",
     "problem, Algorithm and Datastructure/basic_concepts/cpp_value_type.canvas",
     "Content_type.canvas"
   ]

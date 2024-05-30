@@ -1,5 +1,8 @@
 [
   "obsidian-excalidraw-plugin",
   "highlightr-plugin",
-  "heading-level-indent"
+  "heading-level-indent",
+  "obsidian-mind-map",
+  "cm-chs-patch",
+  "obsidian-math-plus"
 ]

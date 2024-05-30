@@ -4,5 +4,7 @@
   "showLineNumber": true,
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "trashOption": "local",
+  "strictLineBreaks": false
 }

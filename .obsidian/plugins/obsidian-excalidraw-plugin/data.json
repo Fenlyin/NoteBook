@@ -5,7 +5,9 @@
   "embedUseExcalidrawFolder": false,
   "templateFilePath": "Excalidraw/Template.excalidraw",
   "scriptFolderPath": "Excalidraw/Scripts",
-  "compress": false,
+  "compress": true,
+  "decompressForMDView": false,
+  "onceOffCompressFlagReset": true,
   "autosave": true,
   "autosaveInterval": 15000,
   "autosaveIntervalDesktop": 15000,
@@ -20,6 +22,7 @@
   "annotatePreserveSize": false,
   "previewImageType": "SVGIMG",
   "allowImageCache": true,
+  "allowImageCacheInScene": true,
   "displayExportedImageIfAvailable": false,
   "previewMatchObsidianTheme": false,
   "width": "400",
@@ -34,6 +37,7 @@
   "defaultPenMode": "never",
   "penModeCrosshairVisible": true,
   "renderImageInMarkdownReadingMode": false,
+  "renderImageInHoverPreviewForMDNotes": false,
   "renderImageInMarkdownToPDF": false,
   "allowPinchZoom": false,
   "allowWheelZoom": false,
@@ -76,8 +80,9 @@
   "experimentalFileTag": "✏️",
   "experimentalLivePreview": true,
   "fadeOutExcalidrawMarkup": false,
-  "experimentalEnableFourthFont": false,
-  "experimantalFourthFont": "Virgil",
+  "experimentalEnableFourthFont": true,
+  "experimantalFourthFont": "font/Muyao-Softbrush-2.ttf",
+  "addDummyTextElement": false,
   "fieldSuggester": true,
   "compatibilityMode": false,
   "drawingOpenCount": 0,
@@ -85,7 +90,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.6",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.2.3",
     "libraryItems": []
   },
   "imageElementNotice": true,
@@ -185,7 +190,7 @@
     }
   },
   "defaultTrayMode": false,
-  "previousRelease": "2.1.6",
+  "previousRelease": "2.2.3",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",
@@ -194,7 +199,8 @@
   "pinnedScripts": [
     "Excalidraw/Scripts/Downloaded/Auto Layout.md",
     "Excalidraw/Scripts/Downloaded/Mindmap format.md",
-    "Excalidraw/Scripts/Downloaded/Uniform size.md"
+    "Excalidraw/Scripts/Downloaded/Uniform size.md",
+    "Excalidraw/Scripts/Downloaded/Organic Line Legacy.md"
   ],
   "customPens": [
     {
@@ -831,5 +837,6 @@
   "slidingPanesSupport": false,
   "areaZoomLimit": 1,
   "longPressDesktop": 500,
-  "longPressMobile": 500
+  "longPressMobile": 500,
+  "isDebugMode": false
 }
