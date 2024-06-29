@@ -4,22 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "c40d92bd772847b3",
+        "id": "97a65a234dd638ea",
         "type": "tabs",
         "children": [
           {
-            "id": "384b84ef32f67ec0",
+            "id": "8903c96a3be0218b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-06-16 11.40.55.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "06e21c7e12a66c5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/基础知识.md",
+                "file": "Test Page.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 330.5
   },
   "right": {
     "id": "89ba1907fdc4a3a8",
@@ -78,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/基础知识.md",
+                "file": "Test Page.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -95,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/Vue/基础知识.md",
+                "file": "Test Page.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/基础知识.md"
+                "file": "Test Page.md"
               }
             }
           },
@@ -139,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 372.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -151,54 +162,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "384b84ef32f67ec0",
+  "active": "06e21c7e12a66c5f",
   "lastOpenFiles": [
-    "前端/Javascript/经验、技巧.md",
-    "前端/Javascript/内置类型属性与方法杂记.md",
-    "前端/CSS/长度单位.md",
-    "前端/CSS/Excalidraw/main-start-end.md",
-    "前端/CSS/弹性盒子  flexbox.md",
-    "概率论与数理统计/probability.md",
-    "概率论与数理统计/概率论相关函数.md",
+    "Excalidraw/Drawing 2024-06-16 11.40.55.excalidraw.md",
+    "Test Page.md",
+    "MMD骨骼.md",
+    "3D基础.md",
+    "Java/GUI.md",
+    "Java/_resources/Component类的部分子类.md",
+    "Java/Java基础知识.md",
     "计算机网络/基础知识.md",
-    "计算机组成原理",
+    "Java/_resources/Pasted image 20240609224409.png",
+    "Java/java数据结构.md",
+    "Java/java getter和setter优势.md",
     "计算机网络/_resources/IP数据报首部格式.png",
-    "计算机网络/_resources/Excalidraw.md",
-    "计算机网络/_resources",
     "计算机网络/FTP 连接案例.md",
-    "api抓取.md",
+    "计算机网络/_resources/IP数据报格式.md",
+    "计网实验.md",
+    "笔记规范.md",
+    "渗透测试基本知识.md",
+    "刷机.md",
+    "EVA TV版剧场版异同.md",
+    "Makefile.md",
+    "SSL证书.md",
+    "Markdown Strict Syntax.md",
+    "3D.md",
+    "解释型编程语言/AutoHotkey/基础语法.md",
+    "概率论与数理统计/概率论相关函数.md",
+    "概率论与数理统计/probability.md",
+    "机器学习/机器学习.md",
+    "机器学习/百分位数.md",
+    "政史",
+    "Java/_resources",
+    "Pasted image 20240609224330.png",
+    "Blender",
+    "计算机组成原理",
+    "计算机网络/_resources",
     "计算机网络",
     "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
-    "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.md",
-    "Markdown Strict Syntax.md",
     "Excalidraw/Scripts/Downloaded/Organic Line Legacy.svg",
-    "Excalidraw/Scripts/Downloaded/Organic Line Legacy.md",
     "Font/Muyao-Softbrush-2.ttf",
     "Font",
-    "Makefile.md",
     "Pasted Image 20240529233256_437.png",
-    "Untitled.md",
     "Untitled Diagram.svg",
-    "笔记规范.md",
-    "problem, Algorithm and Datastructure/templates/计算.md",
-    "参考文献引用格式.md",
-    "解释型编程语言/AutoHotkey/基础语法.md",
-    "CSharp/Csharp 基础知识.md",
-    "CSharp/CSharp权限.md",
-    "渗透测试基本知识.md",
-    "计网实验.md",
-    "VsCode 配置.md",
-    "Test Page.md",
     "Node/Pasted image 20240529225347.png",
     "Unity3D",
     "templates",
-    "New folder",
-    "Python第三方库/Pygame",
-    "Python第三方库",
     "计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
     "计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
-    "Linux/_resources/img1.png",
-    "Linux/_resources/logic.png",
     "problem, Algorithm and Datastructure/basic_concepts/cpp_value_type.canvas",
     "Content_type.canvas"
   ]
