@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "ef422cb2b31ea579",
+    "type": "split",
+    "children": [
+      {
+        "id": "03afd4eb24331cb1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae8db183578d2218",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "后端/Java/GUI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2217f6d6e11884f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0c510438ec83f3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f90c4f0e541cc91",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "json",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5a4f806d51b344d5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 330.5
+  },
+  "right": {
+    "id": "89ba1907fdc4a3a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ad89cc941bde86b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97457d1b4c9b0dbe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "后端/Java/GUI.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c02bc5f65d3b8a40",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "后端/Java/GUI.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f7836872b87a17a0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "后端/Java/GUI.md"
+              }
+            }
+          },
+          {
+            "id": "79f2d8db15d65243",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "a93aafd90b240a8d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 420.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": true,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "ae8db183578d2218",
+  "lastOpenFiles": [
+    "后端/Java/java数据结构.md",
+    "后端/Java/Java基础知识.md",
+    "后端/Java/java getter和setter优势.md",
+    "后端/NodeJs/NPM.md",
+    "后端/SSL证书.md",
+    "前端/BootStrap.md",
+    "杂项/英制、公制转换.md",
+    "杂项/银行关系整理.md",
+    "杂项/浅谈图片像素_分辨率.md",
+    "杂项/数据存储格式.md",
+    "杂项/刷机.md",
+    "杂项/ANSI编码.md",
+    "杂项/OpenAI Keys.md",
+    "工具/终端彩色文字.md",
+    "工具/Makefile.md",
+    "工具/cURL.md",
+    "前端/HTML/link/link.md",
+    "前端/HTML/HTML DOM.md",
+    "前端/api抓取.md",
+    "前端/HTML/Tag summary.md",
+    "前端/Excalidraw/Drawing 2024-06-16 11.40.55.excalidraw.md",
+    "Linux/kali渗透测试.md",
+    "Linux/渗透测试基本知识.md",
+    "Linux/Tips.md",
+    "Linux/linux 软件级知识.md",
+    "Linux/linux 系统与硬件级知识.md",
+    "前端/NodeJs",
+    "前端/Typescript",
+    "Java/_resources/Pasted image 20240609224409.png",
+    "计算机网络/_resources/IP数据报首部格式.png",
+    "政史",
+    "Java/_resources",
+    "Pasted image 20240609224330.png",
+    "Blender",
+    "计算机组成原理",
+    "计算机网络/_resources",
+    "计算机网络",
+    "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
+    "Excalidraw/Scripts/Downloaded/Organic Line Legacy.svg",
+    "Font/Muyao-Softbrush-2.ttf",
+    "Font",
+    "Pasted Image 20240529233256_437.png",
+    "Untitled Diagram.svg",
+    "Node/Pasted image 20240529225347.png",
+    "计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
+    "计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
+    "C与C++/basic_concepts/cpp_value_type.canvas",
+    "Content_type.canvas"
+  ]
+}

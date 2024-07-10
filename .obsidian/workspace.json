@@ -8,29 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8903c96a3be0218b",
+            "id": "7a9977d22891cb99",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-06-16 11.40.55.excalidraw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "06e21c7e12a66c5f",
+            "id": "720ca63e69adfbd1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Test Page.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -49,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "数据库",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 350.5
   },
   "right": {
     "id": "89ba1907fdc4a3a8",
@@ -89,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Test Page.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -106,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Test Page.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,9 +108,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Test Page.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,7 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 376.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,36 +151,40 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "06e21c7e12a66c5f",
+  "active": "7a9977d22891cb99",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-06-16 11.40.55.excalidraw.md",
-    "Test Page.md",
-    "MMD骨骼.md",
-    "3D基础.md",
-    "Java/GUI.md",
-    "Java/_resources/Component类的部分子类.md",
-    "Java/Java基础知识.md",
-    "计算机网络/基础知识.md",
+    "前端/Javascript/jQuery.md",
+    "Untitled.md",
+    "杂记/Test Page.md",
+    "前端/Javascript/基础知识.md",
+    "前端/Javascript/经验、技巧.md",
+    "Excalidraw/Drawing 2024-07-09 18.27.16.excalidraw.md",
+    "前端/CSS/属性.md",
+    "前端/CSS/长度单位.md",
+    "前端/CSS/css属性.md",
+    "后端/Git/git基本操作.md",
+    "前端/HTML/tag summary.md",
+    "大学课程/数据库/mysql基础知识.md",
+    "前端/Vue/基础知识.md",
+    "前端/Vue/Vue文件组成.md",
+    "Excalidraw",
+    "后端/Java/Java基础知识.md",
+    "前端/HTML/HTML DOM.md",
+    "脚本语言/Powershell/命令.md",
+    "后端/NodeJs/NPM.md",
+    "前端/Javascript/常用类、函数.md",
+    "前端/Typescript/Base Sytax.md",
+    "脚本语言/Python第三方库/FastAPI.md",
+    "后端/Linux/linux 软件级知识.md",
+    "后端/Linux/kali渗透测试.md",
+    "后端/Linux/linux 基础命令.md",
+    "后端/Linux/linux 系统与硬件级知识.md",
+    "脚本语言/Python/爬虫.md",
+    "前端/Javascript/Untitled",
+    "前端/NodeJs",
+    "前端/Typescript",
     "Java/_resources/Pasted image 20240609224409.png",
-    "Java/java数据结构.md",
-    "Java/java getter和setter优势.md",
     "计算机网络/_resources/IP数据报首部格式.png",
-    "计算机网络/FTP 连接案例.md",
-    "计算机网络/_resources/IP数据报格式.md",
-    "计网实验.md",
-    "笔记规范.md",
-    "渗透测试基本知识.md",
-    "刷机.md",
-    "EVA TV版剧场版异同.md",
-    "Makefile.md",
-    "SSL证书.md",
-    "Markdown Strict Syntax.md",
-    "3D.md",
-    "解释型编程语言/AutoHotkey/基础语法.md",
-    "概率论与数理统计/概率论相关函数.md",
-    "概率论与数理统计/probability.md",
-    "机器学习/机器学习.md",
-    "机器学习/百分位数.md",
     "政史",
     "Java/_resources",
     "Pasted image 20240609224330.png",
@@ -201,16 +194,12 @@
     "计算机网络",
     "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
     "Excalidraw/Scripts/Downloaded/Organic Line Legacy.svg",
-    "Font/Muyao-Softbrush-2.ttf",
-    "Font",
     "Pasted Image 20240529233256_437.png",
     "Untitled Diagram.svg",
     "Node/Pasted image 20240529225347.png",
-    "Unity3D",
-    "templates",
     "计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
     "计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
-    "problem, Algorithm and Datastructure/basic_concepts/cpp_value_type.canvas",
+    "C与C++/basic_concepts/cpp_value_type.canvas",
     "Content_type.canvas"
   ]
 }

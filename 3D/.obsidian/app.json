@@ -1,0 +1,10 @@
+{
+  "vimMode": true,
+  "spellcheck": false,
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "defaultViewMode": "preview",
+  "trashOption": "local",
+  "strictLineBreaks": false
+}
