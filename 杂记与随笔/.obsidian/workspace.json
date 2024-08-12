@@ -8,35 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7a9977d22891cb99",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "429913c216748beb",
+            "id": "fe8db418a4ff2989",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记规范.md",
-                "mode": "preview",
+                "file": "字体.md",
+                "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "378c46d463ef0731",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记规范.md",
+                "file": "字体.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记规范.md",
+                "file": "字体.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记规范.md"
+                "file": "字体.md"
               }
             }
           },
@@ -168,8 +151,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "429913c216748beb",
+  "active": "fe8db418a4ff2989",
   "lastOpenFiles": [
+    "银行关系整理.md",
+    "字体.md",
+    "笔记规范.md",
     "参考文献引用格式.md",
     "Test Page.md",
     "EVA TV版剧场版异同.md",
@@ -194,9 +180,6 @@
     "前端/Typescript/Base Sytax.md",
     "LaTex.md",
     "数学建模.md",
-    "计网实验.md",
-    "笔记规范.md",
-    "渗透测试基本知识.md",
     "前端/Typescript",
     "Java/_resources/Pasted image 20240609224409.png",
     "计算机网络/_resources/IP数据报首部格式.png",

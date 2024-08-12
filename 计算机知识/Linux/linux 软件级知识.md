@@ -149,6 +149,11 @@ eg.
 - destination is always directory, if source is directory type, then add -r option.
 
 
+## apt
+- `-o` 修改apt的配置，语法为`-o KEY=VALUE`
+	- `Dir::Etc::SourceList="mySourceList` 修改源
+
+
 
 
 

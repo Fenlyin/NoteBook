@@ -4,23 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "97a65a234dd638ea",
+        "id": "56d0fea8410fe4d0",
         "type": "tabs",
         "children": [
           {
-            "id": "7a9977d22891cb99",
+            "id": "813d1923314db582",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "720ca63e69adfbd1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "大学课程/Math/线性代数.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -66,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 321.5
   },
   "right": {
     "id": "89ba1907fdc4a3a8",
@@ -82,6 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "大学课程/Math/线性代数.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -98,6 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "大学课程/Math/线性代数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +106,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "大学课程/Math/线性代数.md"
+              }
             }
           },
           {
@@ -148,38 +148,45 @@
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": false,
       "command-palette:Open command palette": true,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "7a9977d22891cb99",
+  "active": "813d1923314db582",
   "lastOpenFiles": [
-    "前端/Javascript/jQuery.md",
-    "Untitled.md",
-    "杂记/Test Page.md",
-    "前端/Javascript/基础知识.md",
-    "前端/Javascript/经验、技巧.md",
-    "Excalidraw/Drawing 2024-07-09 18.27.16.excalidraw.md",
-    "前端/CSS/属性.md",
-    "前端/CSS/长度单位.md",
-    "前端/CSS/css属性.md",
-    "后端/Git/git基本操作.md",
-    "前端/HTML/tag summary.md",
-    "大学课程/数据库/mysql基础知识.md",
-    "前端/Vue/基础知识.md",
-    "前端/Vue/Vue文件组成.md",
+    "计算机知识/机器学习/机器学习.md",
+    "计算机知识/机器学习/百分位数.md",
+    "计算机知识/机器学习/Turing Machine and Turing Complete.md",
+    "计算机知识/机器学习/MachineLearningBase.md",
+    "数学建模/MATLAB/基础知识.md",
+    "数学建模/MATLAB/有用的函数.md",
+    "数学建模/数学建模.md",
+    "计算机知识/杂项/ANSI编码.md",
+    "计算机知识/杂项/Base64编码.md",
+    "计算机知识/杂项/OpenAI Keys.md",
+    "计算机知识/杂项/转义字符.md",
+    "计算机知识/工具/Vim/vim高阶操作.md",
+    "数学建模/LaTex/基础知识.md",
+    "数学建模/MATLAB",
+    "数学建模/LaTex/LaTex大模型总结.md",
+    "数学建模/LaTex/gmcmthesis.md",
+    "计算机知识/工具/Git/git基本操作.md",
+    "数学分析1.pdf",
+    "C++ Primer Plus (6th Edition).pdf",
+    "Untitled.pdf",
+    "计算机知识/工具/cURL.md",
+    "计算机知识/工具/Git/一些理解与心得.md",
+    "计算机知识/脚本语言/AutoHotkey/基础语法.md",
+    "计算机知识/脚本语言/Ruby/语法.md",
+    "计算机知识/脚本语言/Python/python脚本打包.md",
+    "计算机知识/脚本语言/Python/python基础知识.md",
+    "3D/MMD骨骼.md",
+    "大学课程/计网实验.md",
+    "大学课程/计算机网络/基础知识.md",
+    "大学课程/计算机网络/FTP 连接案例.md",
     "Excalidraw",
-    "后端/Java/Java基础知识.md",
-    "前端/HTML/HTML DOM.md",
-    "脚本语言/Powershell/命令.md",
-    "后端/NodeJs/NPM.md",
-    "前端/Javascript/常用类、函数.md",
-    "前端/Typescript/Base Sytax.md",
-    "脚本语言/Python第三方库/FastAPI.md",
-    "后端/Linux/linux 软件级知识.md",
-    "后端/Linux/kali渗透测试.md",
-    "后端/Linux/linux 基础命令.md",
-    "后端/Linux/linux 系统与硬件级知识.md",
-    "脚本语言/Python/爬虫.md",
     "前端/Javascript/Untitled",
     "前端/NodeJs",
     "前端/Typescript",
@@ -188,10 +195,6 @@
     "政史",
     "Java/_resources",
     "Pasted image 20240609224330.png",
-    "Blender",
-    "计算机组成原理",
-    "计算机网络/_resources",
-    "计算机网络",
     "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
     "Excalidraw/Scripts/Downloaded/Organic Line Legacy.svg",
     "Pasted Image 20240529233256_437.png",

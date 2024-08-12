@@ -17,6 +17,7 @@
 - `git branch` 列出所有分支
 - `git branch <branchname>` 创建分支
 - `git branch -d <branchname>` 删除分支
+- `git branch -M <new_name>` 重名名当前分支
 - `git switch -c <branchname> | git checkout [-b] <branchname>` 切换分支，-b, -c选项，如果分支不存在，则创建新分支并切换
 
 ## 合并操作
@@ -73,3 +74,6 @@ git rm [-r] cached <file>
     4. [https://shrill-pond-3e81.hunsh.workers.dev/](https://shrill-pond-3e81.hunsh.workers.dev/)
     5. [https://fastgit.org/](https://fastgit.org/)
 
+- git log 查看的是当前分支的提交历史，新分支可以继承父分支的提交历史
+- 当前分支上工作区干不干净，是将工作区与分支上最新提交的历史作比较的
+- 暂存区存的是要提交的文件的变化，当一个文件被stage后再发生修改，想要提交就必须再次add，暂存新的修改

@@ -11,12 +11,8 @@
             "id": "7a9977d22891cb99",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大模型总结/cURL.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -25,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python第三方库/FastAPI.md",
+                "file": "软件工程/软件设计过程.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,12 +31,8 @@
             "id": "378c46d463ef0731",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "解释型编程语言/Python/python基础知识.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -103,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python第三方库/FastAPI.md",
+                "file": "软件工程/软件设计过程.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -120,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python第三方库/FastAPI.md",
+                "file": "软件工程/软件设计过程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python第三方库/FastAPI.md"
+                "file": "软件工程/软件设计过程.md"
               }
             }
           },
@@ -164,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {

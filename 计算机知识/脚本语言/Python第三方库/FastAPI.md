@@ -108,3 +108,100 @@ class body(pydantic.BaseModel):
 	organizition : str = None
 ```
 上述使用pydantic模型包装字典(键值对集合)
+
+
+## Jinja2模板返回网页
+
+
+### 1. 安装 FastAPI 和其他依赖
+
+首先，确保你已经安装了 FastAPI 和 Uvicorn（用于运行 FastAPI 应用的 ASGI 服务器）以及 Jinja2（用于模板渲染）。你可以使用 pip 来安装它们：
+
+```bash
+pip install fastapi uvicorn jinja2
+```
+
+### 2. 准备静态文件
+
+在你的项目目录中，创建一个名为 `static` 的文件夹，用于存放 CSS 和 JavaScript 文件。例如：
+
+```
+your_project/
+│
+├── main.py  # 你的 FastAPI 应用
+│
+└── static/
+    ├── css/
+    │   └── styles.css
+    └── js/
+        └── script.js
+```
+
+### 3. 准备模板文件
+
+同样地，创建一个名为 `templates` 的文件夹来存放 HTML 文件。例如：
+
+```
+your_project/
+│
+├── main.py
+│
+├── static/
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       └── script.js
+│
+└── templates/
+    └── index.html
+```
+
+在 `index.html` 中，你可以通过 `<link>` 和 `<script>` 标签来引用静态文件夹中的 CSS 和 JavaScript 文件：
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>Hello, FastAPI!</h1>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
+```
+
+### 4. 编写 FastAPI 应用
+
+在你的 `main.py` 文件中，设置 FastAPI 应用，使用 `StaticFiles` 来服务静态文件，并使用模板渲染来返回 HTML。
+
+```python
+from fastapi import FastAPI, Request
+from fastapi.responses import HTMLResponse
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+
+app = FastAPI()
+
+# 设置静态文件目录
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
+# 设置模板引擎
+templates = Jinja2Templates(directory="templates")
+
+@app.get("/", response_class=HTMLResponse)
+async def read_root(request: Request):
+    return templates.TemplateResponse("index.html", {"request": request})
+```
+
+### 5. 运行你的应用
+
+使用 Uvicorn 运行你的 FastAPI 应用：
+
+```bash
+uvicorn main:app --reload
+```
+

@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "03afd4eb24331cb1",
+        "id": "5be86a45dc60a682",
         "type": "tabs",
         "children": [
           {
-            "id": "ae8db183578d2218",
+            "id": "6b2c1cc5ebfc6f2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/Java/GUI.md",
+                "file": "后端/C与C++/basic_concepts/类相关.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "90772f7213020a25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "x86_64汇编.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "json",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "后端/Java/GUI.md",
+                "file": "x86_64汇编.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -95,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "后端/Java/GUI.md",
+                "file": "x86_64汇编.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/Java/GUI.md"
+                "file": "x86_64汇编.md"
               }
             }
           },
@@ -151,34 +164,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ae8db183578d2218",
+  "active": "90772f7213020a25",
   "lastOpenFiles": [
-    "后端/Java/java数据结构.md",
-    "后端/Java/Java基础知识.md",
-    "后端/Java/java getter和setter优势.md",
-    "后端/NodeJs/NPM.md",
-    "后端/SSL证书.md",
-    "前端/BootStrap.md",
-    "杂项/英制、公制转换.md",
-    "杂项/银行关系整理.md",
-    "杂项/浅谈图片像素_分辨率.md",
-    "杂项/数据存储格式.md",
-    "杂项/刷机.md",
+    "脚本语言/Python第三方库/Pillow.md",
+    "脚本语言/Python第三方库/pandas.md",
+    "脚本语言/Python第三方库/Flask.md",
+    "脚本语言/Python第三方库/FastAPI.md",
+    "脚本语言/Python第三方库/matplot.md",
+    "脚本语言/Python第三方库/numpy.md",
+    "脚本语言/Python第三方库/Opencv-python.md",
+    "Windows/Windows技巧.md",
+    "工具/Vim/vim高阶操作.md",
+    "Windows/Win32 API.md",
+    "工具/BuildSystem/GNU.md",
+    "Windows",
+    "杂项/Base64编码.md",
     "杂项/ANSI编码.md",
-    "杂项/OpenAI Keys.md",
-    "工具/终端彩色文字.md",
-    "工具/Makefile.md",
-    "工具/cURL.md",
-    "前端/HTML/link/link.md",
-    "前端/HTML/HTML DOM.md",
-    "前端/api抓取.md",
-    "前端/HTML/Tag summary.md",
-    "前端/Excalidraw/Drawing 2024-06-16 11.40.55.excalidraw.md",
-    "Linux/kali渗透测试.md",
-    "Linux/渗透测试基本知识.md",
-    "Linux/Tips.md",
-    "Linux/linux 软件级知识.md",
-    "Linux/linux 系统与硬件级知识.md",
+    "脚本语言/Powershell/命令.md",
+    "后端/C与C++/basic_concepts/类相关.md",
+    "_resources/Pasted image 20240729153517.png",
+    "前端/Vue/基础知识.md",
+    "前端/Vue/Vue文件组成.md",
+    "前端/BootStrap.md",
+    "前端/Javascript/jQuery.md",
+    "脚本语言/AutoHotkey/基础语法.md",
+    "硬件/CPU.md",
+    "x86_64汇编.md",
+    "后端/Java/GUI.md",
+    "后端/Java/java getter和setter优势.md",
+    "后端/Java/Java基础知识.md",
+    "后端/Java/java数据结构.md",
+    "_resources/Pasted image 20240721224246.png",
+    "硬件",
+    "工具/_resources/snippets.png",
+    "工具/_resources/build system.png",
+    "工具/_resources",
+    "工具/BuildSystem",
+    "Excalidraw",
     "前端/NodeJs",
     "前端/Typescript",
     "Java/_resources/Pasted image 20240609224409.png",
@@ -187,18 +209,9 @@
     "Java/_resources",
     "Pasted image 20240609224330.png",
     "Blender",
-    "计算机组成原理",
-    "计算机网络/_resources",
-    "计算机网络",
     "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
     "Excalidraw/Scripts/Downloaded/Organic Line Legacy.svg",
-    "Font/Muyao-Softbrush-2.ttf",
-    "Font",
     "Pasted Image 20240529233256_437.png",
-    "Untitled Diagram.svg",
-    "Node/Pasted image 20240529225347.png",
-    "计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
-    "计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
     "C与C++/basic_concepts/cpp_value_type.canvas",
     "Content_type.canvas"
   ]

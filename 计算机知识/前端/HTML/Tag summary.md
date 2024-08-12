@@ -43,6 +43,14 @@ after render:
 - 因为在源文件中，hello前有两个 `\t` ,world前有一个`\t`.
 - 在div容器中显示，即在视窗的具体位置还要取决与div
 
+
+## \<a>
+```HTML
+<a href="#id"> link </a>
+<a href="javascript:void(0)"> link </a>
+```
+- href为`#+id`时，这个链接是一个锚点链接，用于在页面上定位
+- href为`JavaScript:`时，点击这个链接将会执行后面的JavaScript代码
 # 常见的内联级元素
 - `span`
 - `a`

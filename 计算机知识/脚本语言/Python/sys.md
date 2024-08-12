@@ -1,0 +1,1 @@
+- `argv:list[str]` argument vector.一个`list`，第一个元素是脚本名，其后元素是命令行参数。

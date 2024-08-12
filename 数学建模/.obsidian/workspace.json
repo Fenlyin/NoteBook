@@ -8,43 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7a9977d22891cb99",
+            "id": "695e5ebd232b0bb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型总结/cURL.md",
+                "file": "LaTex/基础知识.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "429913c216748beb",
+            "id": "97143137fbf6e106",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python第三方库/FastAPI.md",
+                "file": "LaTex/基础知识.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "378c46d463ef0731",
+            "id": "77881d13093306b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "解释型编程语言/Python/python基础知识.md",
+                "file": "LaTex/LaTex大模型总结.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python第三方库/FastAPI.md",
+                "file": "LaTex/LaTex大模型总结.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python第三方库/FastAPI.md",
+                "file": "LaTex/LaTex大模型总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python第三方库/FastAPI.md"
+                "file": "LaTex/LaTex大模型总结.md"
               }
             }
           },
@@ -176,8 +176,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "429913c216748beb",
+  "active": "77881d13093306b4",
   "lastOpenFiles": [
+    "LaTex/基础知识.md",
+    "数学建模.md",
+    "LaTex/gmcmthesis.md",
+    "LaT.md",
+    "LaTex",
+    "Untitled",
+    "LaTex/LaTex大模型总结.md",
+    "_resources/Pasted image 20240803124632.png",
+    "MATLAB/基础知识.md",
+    "_resources",
+    "_resources/Pasted image 20240802223858.png",
+    "Excalidraw/Drawing 2024-08-02 22.33.28.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-27 22.23.04.excalidraw.md",
+    "Excalidraw",
+    "Drawing 2024-07-27 22.22.51.excalidraw.md",
+    "MATLAB",
+    "MATLAB/有用的函数.md",
+    "Doc Type",
     "api抓取.md",
     "Python第三方库/FastAPI.md",
     "解释型编程语言/Python/python基础知识.md",
@@ -194,36 +212,17 @@
     "前端/NodeJs/NPM.md",
     "前端/NodeJs",
     "前端/Javascript/js基础知识.md",
-    "前端/Javascript/常用类、函数.md",
-    "前端/Javascript/经验、技巧.md",
-    "前端/Typescript/Base Sytax.md",
-    "LaTex.md",
-    "数学建模.md",
-    "计网实验.md",
-    "笔记规范.md",
-    "参考文献引用格式.md",
-    "渗透测试基本知识.md",
-    "VsCode 配置.md",
-    "刷机.md",
     "前端/Typescript",
     "Java/_resources/Pasted image 20240609224409.png",
     "计算机网络/_resources/IP数据报首部格式.png",
     "政史",
     "Java/_resources",
     "Pasted image 20240609224330.png",
-    "Blender",
-    "计算机组成原理",
-    "计算机网络/_resources",
-    "计算机网络",
     "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
     "Excalidraw/Scripts/Downloaded/Organic Line Legacy.svg",
-    "Font/Muyao-Softbrush-2.ttf",
-    "Font",
     "Pasted Image 20240529233256_437.png",
     "Untitled Diagram.svg",
     "Node/Pasted image 20240529225347.png",
-    "计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
-    "计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
     "C与C++/basic_concepts/cpp_value_type.canvas",
     "Content_type.canvas"
   ]
