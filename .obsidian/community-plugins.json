@@ -1,9 +1,6 @@
 [
   "obsidian-excalidraw-plugin",
-  "highlightr-plugin",
-  "obsidian-mind-map",
-  "creases",
   "obsidian-style-settings",
-  "pdf-plus",
-  "obsidian-git"
+  "obsidian-git",
+  "quickadd"
 ]
