@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "813d1923314db582",
+            "id": "c8af2ee040c90b28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大学课程/Math/线性代数.md",
+                "file": "Test.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大学课程/Math/线性代数.md",
+                "file": "Test.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大学课程/Math/线性代数.md",
+                "file": "Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大学课程/Math/线性代数.md"
+                "file": "Test.md"
               }
             }
           },
@@ -154,38 +154,39 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "813d1923314db582",
+  "active": "c8af2ee040c90b28",
   "lastOpenFiles": [
+    "杂记与随笔/银行关系整理.md",
+    "Test.md",
+    "templates/Function.md",
+    "templates/Time.md",
+    "templates/Date.md",
+    "3D/3D基础.md",
+    "3D/Blender/blender 常用功能.md",
+    "大学课程/English/Grammer/动词.md",
+    "大学课程/English/Grammer/时态和语态.md",
+    "大学课程/English/Grammer/独立主格.md",
+    "大学课程/English/Grammer/代词.md",
+    "大学课程/English/Grammer",
+    "大学课程/English/words.md",
+    "计算机知识/脚本语言/Batch/tips.md",
+    "计算机知识/脚本语言/Batch/脚本.md",
+    "计算机知识/脚本语言/Powershell/脚本.md",
+    "计算机知识/脚本语言/Powershell/命令.md",
+    "计算机知识/Linux/linux 基础命令.md",
+    "计算机知识/Web 开发.md",
+    "计算机知识/学习.md",
+    "大学课程/Math/线性代数.md",
+    "计算机知识/前端/Untitled.md",
     "计算机知识/机器学习/机器学习.md",
     "计算机知识/机器学习/百分位数.md",
     "计算机知识/机器学习/Turing Machine and Turing Complete.md",
     "计算机知识/机器学习/MachineLearningBase.md",
     "数学建模/MATLAB/基础知识.md",
-    "数学建模/MATLAB/有用的函数.md",
-    "数学建模/数学建模.md",
-    "计算机知识/杂项/ANSI编码.md",
-    "计算机知识/杂项/Base64编码.md",
-    "计算机知识/杂项/OpenAI Keys.md",
-    "计算机知识/杂项/转义字符.md",
-    "计算机知识/工具/Vim/vim高阶操作.md",
-    "数学建模/LaTex/基础知识.md",
     "数学建模/MATLAB",
-    "数学建模/LaTex/LaTex大模型总结.md",
-    "数学建模/LaTex/gmcmthesis.md",
-    "计算机知识/工具/Git/git基本操作.md",
     "数学分析1.pdf",
     "C++ Primer Plus (6th Edition).pdf",
     "Untitled.pdf",
-    "计算机知识/工具/cURL.md",
-    "计算机知识/工具/Git/一些理解与心得.md",
-    "计算机知识/脚本语言/AutoHotkey/基础语法.md",
-    "计算机知识/脚本语言/Ruby/语法.md",
-    "计算机知识/脚本语言/Python/python脚本打包.md",
-    "计算机知识/脚本语言/Python/python基础知识.md",
-    "3D/MMD骨骼.md",
-    "大学课程/计网实验.md",
-    "大学课程/计算机网络/基础知识.md",
-    "大学课程/计算机网络/FTP 连接案例.md",
     "Excalidraw",
     "前端/Javascript/Untitled",
     "前端/NodeJs",
@@ -193,7 +194,6 @@
     "Java/_resources/Pasted image 20240609224409.png",
     "计算机网络/_resources/IP数据报首部格式.png",
     "政史",
-    "Java/_resources",
     "Pasted image 20240609224330.png",
     "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
     "Excalidraw/Scripts/Downloaded/Organic Line Legacy.svg",
