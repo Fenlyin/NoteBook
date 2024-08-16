@@ -48,7 +48,7 @@
 
 
 ## 用户管理
-
+- 修改编辑器：`git config --global core.editor "vim"`
 
 
 ## 凭据管理
