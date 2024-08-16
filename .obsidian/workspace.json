@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "56d0fea8410fe4d0",
+        "id": "97a65a234dd638ea",
         "type": "tabs",
         "children": [
           {
-            "id": "c8af2ee040c90b28",
+            "id": "7a9977d22891cb99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大学课程/English/words.md",
+                "file": "计算机知识/工具/Git/git基本操作.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 350.5
   },
   "right": {
     "id": "89ba1907fdc4a3a8",
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大学课程/English/words.md",
+                "file": "计算机知识/工具/Git/git基本操作.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大学课程/English/words.md",
+                "file": "计算机知识/工具/Git/git基本操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大学课程/English/words.md"
+                "file": "计算机知识/工具/Git/git基本操作.md"
               }
             }
           },
@@ -148,60 +148,57 @@
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": false,
       "command-palette:Open command palette": true,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c8af2ee040c90b28",
+  "active": "7a9977d22891cb99",
   "lastOpenFiles": [
-    "大学课程/English/英语文章精读记录/英语精读2024-08-16.md",
-    "大学课程/English/英语文章精读记录/英语精读2024-08-17.md",
-    "大学课程/English/英语文章精读记录/英语精读2024-08-18.md",
-    "大学课程/English/words.md",
-    "大学课程/English/英语文章精读记录",
-    "大学课程/English/英语文章精读记录.md",
-    "杂记与随笔/银行关系整理.md",
-    "demo2024-08-16.md",
-    "templates/JD英语文章精读.md",
-    "Test.md",
-    "templates/Untitled.md",
-    "Untitled.md",
-    "templates/Function.md",
-    "templates/Time.md",
-    "templates/Date.md",
-    "3D/3D基础.md",
-    "3D/Blender/blender 常用功能.md",
-    "大学课程/English/Grammer/动词.md",
-    "大学课程/English/Grammer/时态和语态.md",
-    "大学课程/English/Grammer/独立主格.md",
-    "大学课程/English/Grammer/代词.md",
-    "大学课程/English/Grammer",
-    "计算机知识/脚本语言/Batch/tips.md",
-    "计算机知识/脚本语言/Batch/脚本.md",
-    "计算机知识/脚本语言/Powershell/脚本.md",
-    "计算机知识/脚本语言/Powershell/命令.md",
-    "计算机知识/Linux/linux 基础命令.md",
+    "计算机知识/Linux/linux 系统与硬件级知识.md",
+    "计算机知识/Linux/linux 软件级知识.md",
+    "计算机知识/脚本语言/Shell.md",
+    "计算机知识/脚本语言/Python第三方库/Flask.md",
+    "计算机知识/脚本语言/Python/sys.md",
+    "计算机知识/脚本语言/Python/python脚本打包.md",
+    "计算机知识/脚本语言/Python/os.md",
+    "计算机知识/硬件/刷机.md",
+    "计算机知识/硬件/CPU.md",
+    "计算机知识/硬件",
+    "计算机知识/杂项/转义字符.md",
+    "计算机知识/杂项/Base64编码.md",
+    "计算机知识/工具/_resources/snippets.png",
+    "计算机知识/工具/_resources/build system.png",
+    "计算机知识/工具/_resources",
+    "计算机知识/工具/Docker.md",
+    "计算机知识/工具/BuildSystem/outline.md",
+    "计算机知识/工具/BuildSystem/ninja.md",
+    "计算机知识/工具/BuildSystem/Makefile.md",
+    "计算机知识/工具/BuildSystem/GNU.md",
+    "计算机知识/工具/BuildSystem/CMakeLists.md",
+    "计算机知识/工具/BuildSystem",
+    "计算机知识/学习.md",
+    "计算机知识/后端/C与C++/basic_concepts/类相关.md",
+    "计算机知识/x86_64汇编.md",
+    "计算机知识/_resources/Pasted image 20240729153517.png",
+    "计算机知识/_resources/Pasted image 20240721224246.png",
+    "计算机知识/Windows/Windows技巧.md",
+    "计算机知识/Windows/Win32 API.md",
+    "计算机知识/Windows",
     "计算机知识/Web 开发.md",
+    "计算机知识/Excalidraw/GNU Compiler.md",
+    "计算机知识/Excalidraw/Build System.md",
+    "计算机知识/Excalidraw",
+    "杂记与随笔/字体.md",
+    "数学建模/_resources/Pasted image 20240803124632.png",
+    "数学建模/_resources/Pasted image 20240802223858.png",
+    "数学建模/_resources",
     "数学建模/MATLAB",
-    "数学分析1.pdf",
-    "C++ Primer Plus (6th Edition).pdf",
-    "Untitled.pdf",
-    "Excalidraw",
-    "前端/Javascript/Untitled",
-    "前端/NodeJs",
-    "前端/Typescript",
-    "Java/_resources/Pasted image 20240609224409.png",
-    "计算机网络/_resources/IP数据报首部格式.png",
-    "Pasted image 20240609224330.png",
-    "Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
-    "Excalidraw/Scripts/Downloaded/Organic Line Legacy.svg",
-    "Pasted Image 20240529233256_437.png",
-    "Untitled Diagram.svg",
-    "Node/Pasted image 20240529225347.png",
-    "计算机知识/_resources/5da2c2750915f002d140f1379a26ef88.png",
-    "计算机知识/_resources/c8692bc6d7dde3e24783c04ede40099b.png",
+    "数学建模/LaTex",
+    "数学建模/Excalidraw",
+    "大学课程/English/Grammer",
+    "3D/_resources/Pasted image 20240725144855.png",
+    "3D/_resources/Pasted image 20240725143609.png",
+    "3D/_resources/Pasted image 20240717182243.png",
+    "3D/_resources/Pasted image 20240717181616.png",
     "C与C++/basic_concepts/cpp_value_type.canvas",
     "Content_type.canvas"
   ]
