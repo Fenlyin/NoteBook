@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大学课程/English/words.md",
+                "file": "计算机知识/工具/cURL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f59c73a44ef5d59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机知识/Linux/linux 系统与硬件级知识.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "数据库",
+                "query": "curl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大学课程/English/words.md",
+                "file": "计算机知识/Linux/linux 系统与硬件级知识.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -95,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "大学课程/English/words.md",
+                "file": "计算机知识/Linux/linux 系统与硬件级知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "大学课程/English/words.md"
+                "file": "计算机知识/Linux/linux 系统与硬件级知识.md"
               }
             }
           },
@@ -148,18 +161,19 @@
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": false,
       "command-palette:Open command palette": true,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c8af2ee040c90b28",
+  "active": "3f59c73a44ef5d59",
   "lastOpenFiles": [
+    "计算机知识/Linux/linux 基础命令.md",
+    "计算机知识/Linux/kali渗透测试.md",
+    "Untitled.md",
+    "计算机知识/工具/cURL.md",
+    "大学课程/English/words.md",
     "大学课程/English/英语文章精读记录/英语精读2024-08-16.md",
     "大学课程/English/英语文章精读记录/英语精读2024-08-17.md",
     "大学课程/English/英语文章精读记录/英语精读2024-08-18.md",
-    "大学课程/English/words.md",
     "大学课程/English/英语文章精读记录",
     "大学课程/English/英语文章精读记录.md",
     "杂记与随笔/银行关系整理.md",
@@ -167,7 +181,6 @@
     "templates/JD英语文章精读.md",
     "Test.md",
     "templates/Untitled.md",
-    "Untitled.md",
     "templates/Function.md",
     "templates/Time.md",
     "templates/Date.md",
@@ -181,9 +194,6 @@
     "计算机知识/脚本语言/Batch/tips.md",
     "计算机知识/脚本语言/Batch/脚本.md",
     "计算机知识/脚本语言/Powershell/脚本.md",
-    "计算机知识/脚本语言/Powershell/命令.md",
-    "计算机知识/Linux/linux 基础命令.md",
-    "计算机知识/Web 开发.md",
     "数学建模/MATLAB",
     "数学分析1.pdf",
     "C++ Primer Plus (6th Edition).pdf",
