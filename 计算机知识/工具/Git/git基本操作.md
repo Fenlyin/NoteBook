@@ -58,7 +58,7 @@
 自动化操作免登录：使用git的 `credential.helper` 配置。
 - `store` 将用户名和口令以明文方式储存在 `~/git-credentials`当中
 - `cache` 将用户名和口令暂时存在内存中，15分钟后消失
-- 使用凭据管理工具： `windows credential manager`, `git-gredential-manager`等等。
+- 使用凭据管理工具： `windows credential manager`, `git-credential-manager`等等。
 
 在Windows中，身份验证由 `windows credential manager` 管理。
 在其他平台，可以下载凭据管理器，比如 `git-credential-manager` 等。

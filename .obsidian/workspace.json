@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机知识/工具/Git/git基本操作.md",
+                "file": "计算机知识/Linux/linux 系统与硬件级知识.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机知识/工具/Git/git基本操作.md",
+                "file": "计算机知识/Linux/linux 系统与硬件级知识.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机知识/工具/Git/git基本操作.md",
+                "file": "计算机知识/Linux/linux 系统与硬件级知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机知识/工具/Git/git基本操作.md"
+                "file": "计算机知识/Linux/linux 系统与硬件级知识.md"
               }
             }
           },
@@ -153,8 +153,11 @@
   },
   "active": "7a9977d22891cb99",
   "lastOpenFiles": [
-    "计算机知识/Linux/linux 系统与硬件级知识.md",
     "计算机知识/Linux/linux 软件级知识.md",
+    "计算机知识/Linux/Tips.md",
+    "计算机知识/Linux/渗透测试基本知识.md",
+    "计算机知识/工具/Git/git基本操作.md",
+    "计算机知识/Linux/linux 系统与硬件级知识.md",
     "计算机知识/脚本语言/Shell.md",
     "计算机知识/脚本语言/Python第三方库/Flask.md",
     "计算机知识/脚本语言/Python/sys.md",
@@ -184,10 +187,7 @@
     "计算机知识/Windows/Win32 API.md",
     "计算机知识/Windows",
     "计算机知识/Web 开发.md",
-    "计算机知识/Excalidraw/GNU Compiler.md",
-    "计算机知识/Excalidraw/Build System.md",
     "计算机知识/Excalidraw",
-    "杂记与随笔/字体.md",
     "数学建模/_resources/Pasted image 20240803124632.png",
     "数学建模/_resources/Pasted image 20240802223858.png",
     "数学建模/_resources",
