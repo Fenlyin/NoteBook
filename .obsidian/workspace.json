@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9e4c07feac3754ec",
+        "id": "e5b246400ef142b1",
         "type": "tabs",
         "children": [
           {
-            "id": "41db92e5eeee48d7",
+            "id": "d33067656ddf7d5d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -73,7 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -90,7 +90,7 @@
               "type": "outgoing-link",
               "state": {
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -125,25 +125,49 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "41db92e5eeee48d7",
+  "active": "d33067656ddf7d5d",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md"
+    "数学建模/MATLAB/常用技巧.md",
+    "数学建模/MATLAB/有用的函数.md",
+    "templates/Function.md",
+    "计算机知识/后端/C与C++/templates/计算.md",
+    "计算机知识/后端/C与C++/BigNum.md",
+    "杂记与随笔/Test Page.md",
+    "ChatGPT 数学建模Prompt.md",
+    "数学建模/MATLAB/基础知识.md",
+    "计算机知识/Linux/linux 基础命令.md",
+    "Excalidraw/Drawing 2024-08-22 14.48.49.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-21 21.47.40.excalidraw.md",
+    "Untitled.canvas",
+    "Excalidraw/Drawing 2024-07-09 18.27.16.excalidraw.md",
+    "计算机知识/Linux/Grub.md",
+    "计算机知识/机器学习/KNN.md",
+    "计算机知识/工具/正则表达式.md",
+    "计算机知识/Linux/linux 软件级知识.md",
+    "计算机知识/Windows/Windows技巧.md",
+    "计算机知识/Windows/Win32 API.md",
+    "计算机知识/x86_64汇编.md",
+    "计算机知识/Web 开发.md",
+    "计算机知识/Linux/kali渗透测试.md",
+    "杂记与随笔/参考文献引用格式.md",
+    "计算机知识/Linux/Tips.md",
+    "计算机知识/脚本语言/Shell.md",
+    "大学课程/计算机网络/基础知识.md",
+    "大学课程/计算机网络/WireShark 网络抓包.md"
   ]
 }

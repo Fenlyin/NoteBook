@@ -21,15 +21,13 @@ mindmap-plugin: rich
 >Please read this doc.
 >Nice to meet you!
 
->[!Summary]- This is a summary!
+>[!Summary] This is a summary!
 Hello World
 
 >[!Warning]- This is a warning!
 >Don't do it1
+i
 
-## quote
-> This is a quote!
-> Hello everyone! How <mark class="hltr-red">times</mark> fly!
 
-hello
-world
+test1
+test2
