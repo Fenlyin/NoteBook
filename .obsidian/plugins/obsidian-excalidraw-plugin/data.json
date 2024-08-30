@@ -8,6 +8,7 @@
   "compress": true,
   "decompressForMDView": false,
   "onceOffCompressFlagReset": true,
+  "onceOffGPTVersionReset": false,
   "autosave": true,
   "autosaveIntervalDesktop": 15000,
   "autosaveIntervalMobile": 10000,
@@ -91,7 +92,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.2.7",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.3.0",
     "libraryItems": []
   },
   "imageElementNotice": true,
@@ -191,7 +192,7 @@
     }
   },
   "defaultTrayMode": false,
-  "previousRelease": "2.2.7",
+  "previousRelease": "2.3.0",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",
@@ -543,11 +544,11 @@
   },
   "canvasImmersiveEmbed": true,
   "startupScriptPath": "",
-  "openAIAPIToken": "",
+  "openAIAPIToken": "sk-FKWJjptIiASJVy5IB582A907792d4855A5C3Df2033Ee4643",
   "openAIDefaultTextModel": "gpt-3.5-turbo-1106",
-  "openAIDefaultVisionModel": "gpt-4-vision-preview",
+  "openAIDefaultVisionModel": "gpt-4o",
   "openAIDefaultImageGenerationModel": "dall-e-3",
-  "openAIURL": "https://api.openai.com/v1/chat/completions",
+  "openAIURL": "https://api.proxyai.top/v1/chat/completions/",
   "openAIImageGenerationURL": "https://api.openai.com/v1/images/generations",
   "openAIImageEditsURL": "https://api.openai.com/v1/images/edits",
   "openAIImageVariationURL": "https://api.openai.com/v1/images/variations",
@@ -840,5 +841,6 @@
   "longPressDesktop": 500,
   "longPressMobile": 500,
   "isDebugMode": false,
+  "rank": "Bronze",
   "autosaveInterval": 15000
 }

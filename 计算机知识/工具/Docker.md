@@ -20,7 +20,7 @@
 - **获取镜像**：使用 `docker pull <path_to_image>` 命令从 Docker 仓库下载镜像。
 - **列出镜像**：使用 `docker images` 或 `docker image ls` 命令。
 - **删除镜像**：使用 `docker rm <image_name>` 命令。
-- **构建镜像**：使用 `docker image build -t <iamge_name>`
+- **构建镜像**：使用 `docker image build -t <iamge_name>:<tag> <dir>`其中，`<dir>`是`Dockerfile`所在目录
 
 ## 5. Docker 容器操作
 

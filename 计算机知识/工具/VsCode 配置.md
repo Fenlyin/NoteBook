@@ -30,3 +30,8 @@ With `$name` or `${name:default}`, you can insert the value of a variable. With 
 - `${1:var}` 数字`1...9` 表示光标所在placeholder的次序，冒号后面的是默认值
 - `${0:var}` 数字`0`标识最后一个placeholder
 - `${1|var1, var2, var3|}` you can select from the list, or assign a new value
+
+
+## .vscode
+- `task` 相当于批处理，自动化程序
+- `launch` 预定义的一些启动任务
