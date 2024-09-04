@@ -6,5 +6,6 @@
   "useMarkdownLinks": true,
   "defaultViewMode": "preview",
   "trashOption": "local",
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "userIgnoreFilters": null
 }

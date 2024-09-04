@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "28475c902ec7237d",
+        "id": "630e9c3ba8701121",
         "type": "tabs",
         "children": [
           {
-            "id": "6d3f399d2abd55cc",
+            "id": "721ca0cff3c37fe4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机知识/工具/BuildSystem/Makefile.md",
+                "file": "基础课程/离散数学.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,46 +21,19 @@
             }
           },
           {
-            "id": "c947d3c455da39e5",
+            "id": "b365df32726c0591",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机知识/脚本语言/Powershell/脚本.md",
+                "file": "计算机/工具/Markdown Strict Syntax.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d24d9672eeb54f70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机知识/工具/XML.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bde5b362c21d06b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机知识/工具/VsCode 配置.md",
-                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +91,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机知识/脚本语言/Powershell/脚本.md",
+                "file": "基础课程/离散数学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -130,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机知识/脚本语言/Powershell/脚本.md",
+                "file": "基础课程/离散数学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机知识/脚本语言/Powershell/脚本.md"
+                "file": "基础课程/离散数学.md"
               }
             }
           }
@@ -179,47 +152,51 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "sample-plugin:Sample Plugin": false
     }
   },
-  "active": "c947d3c455da39e5",
+  "active": "721ca0cff3c37fe4",
   "lastOpenFiles": [
-    "计算机知识/工具/XML.md",
-    "计算机知识/脚本语言/Powershell/脚本.md",
-    "计算机知识/脚本语言/Shell.md",
-    "计算机知识/脚本语言/Python/os.md",
-    "计算机知识/工具/BuildSystem/Makefile.md",
-    "大学课程/物理.md",
-    "计算机知识/后端/SSL证书.md",
-    "计算机知识/工具/VsCode 配置.md",
-    "计算机知识/工具/Vim/vim高阶操作.md",
-    "计算机知识/脚本语言/路径.md",
-    "计算机知识/脚本语言/Powershell/命令.md",
-    "键盘控制手机项目.md",
-    "计算机知识/硬件/刷机.md",
-    "计算机知识/硬件/CPU.md",
-    "计算机知识/Web 开发.md",
-    "3D/计算机颜色系统.md",
-    "大学课程/Math/高等数学.md",
-    "大学课程/Math/线性代数.md",
-    "计算机知识/Windows/Windows经验与技巧.md",
-    "计算机知识/x86_64汇编.md",
-    "计算机知识/学习.md",
-    "ChatGPT 数学建模Prompt.md",
-    "信号.md",
-    "架构.md",
+    "基础课程/物理/电磁学.md",
+    "基础课程/物理/物理.md",
+    "杂记与随笔/电源适配器参数.md",
+    "杂记与随笔/TestPage.md",
+    "计算机/脚本语言/Python/python基础知识.md",
+    "计算机/Linux/linux 软件级知识.md",
+    "计算机/工具/Markdown Strict Syntax.md",
+    "计算机/后端/Java/GUI.md",
+    "计算机/后端/Java/_resources/Component类的部分子类.md",
+    "计算机/后端/Java/_resources/Pasted image 20240609224409.png",
+    "Test.md",
+    "Excalidraw/Test.md",
+    "计算机/后端/NodeJs/NPM.md",
+    "计算机/前端/BootStrap.md",
+    "杂记与随笔/字体.md",
+    "杂记与随笔/ANSI编码.md",
+    "基础课程/逻辑论.md",
+    "杂记与随笔/银行关系整理.md",
+    "杂记与随笔/转义字符.md",
+    "杂记与随笔/英制、公制转换.md",
+    "杂记与随笔/笔记规范.md",
+    "杂记与随笔/数据存储格式.md",
+    "杂记与随笔/参考文献引用格式.md",
+    "计算机/工具/Vim/vim高阶操作.md",
+    "基础课程/离散数学.md",
+    "3D/Shader 学习笔记.md",
+    "3D/MMD骨骼.md",
+    "基础课程/物理",
+    "计算机/_resources/cortex-m3.png",
     "latex_document_type.drawio.svg",
-    "计算机知识/工具/正则表达式.md",
-    "杂记与随笔/Test Page.md",
-    "Untitled",
-    "计算机知识/_resources/Pasted image 20240823200805.png",
+    "计算机/_resources/Pasted image 20240823200805.png",
     "Untitled.canvas"
   ]
 }

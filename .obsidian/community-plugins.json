@@ -3,5 +3,6 @@
   "obsidian-style-settings",
   "obsidian-git",
   "quickadd",
-  "obsidian-latex-environments"
+  "obsidian-vimrc-support",
+  "sample-plugin"
 ]
