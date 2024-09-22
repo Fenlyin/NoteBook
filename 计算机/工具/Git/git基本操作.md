@@ -71,18 +71,20 @@ git stash pop stash@{1}
 
 
 ## 凭据管理
-- 对于 `public repo` `push` 操作需要密码
-- 对于 `private repo` `clone`, `pull`, `push` 操作均需要密码
+- 对于 public repo: `push` 操作需要密码
+- 对于 private repo: `clone`, `pull`, `push` 操作均需要密码
 
 自动化操作免登录：使用git的 `credential.helper` 配置。
 - `store` 将用户名和口令以明文方式储存在 `~/git-credentials`当中
 - `cache` 将用户名和口令暂时存在内存中，15分钟后消失
 - 使用凭据管理工具： `windows credential manager`, `git-credential-manager`等等。
 
+>[!note]
 在Windows中，身份验证由 `windows credential manager` 管理。
 在其他平台，可以下载凭据管理器，比如 `git-credential-manager` 等。
 
-github 已移除口令（密码）验证方式，转而使用 token 方式，在使用 `store` 或 `cache` 时，如果给的是用户口令（密码），将失败。
+>[!warning]
+>github 已移除口令（密码）验证方式，转而使用 token 方式，在使用 `store` 或 `cache` 时，如果给的是用户口令（密码），将失败。
 
 - 对于`store`配置格式： `https://<username>:<tokens>@github.com`
 
@@ -95,7 +97,32 @@ git rm [-r] cached <file>
 ## gitignore 配置
 - `!file.xxx`  `!` 表示文件被排除在规则之外
 
-## 理解
+
+# github 多用户协作
+假设主用户创建了仓库，他与其他用户协作。
+- 主用户创建初始仓库后，其他用户可以推送内容进行初始化。
+- 仓库一旦初始化，未经邀请的其他用户将无法再推送。
+- 用户往GitHub推送首先需要登录github，登陆后可以根据git配置中的用户账号（邮箱）来决定以谁的身份推送。
+
+## 用户登录Github
+```vim
+# 这决定远程仓库的登录用户
+[credential <url>]
+	username = <you name>
+
+# 这个决定你的登录方式
+[credential]
+	helper = [manager | stoer | cache]
+```
+
+
+>[!warning]
+>即使是以我的GitHub账号登录的，但如果我的git配置中，email配置的是另一个人的Github账号，那么将内容推送到Github中后，显示的贡献者也是另一个人。
+
+
+
+
+# 理解
 - git log 查看的是当前分支的提交历史，新分支可以继承父分支的提交历史
 - 当前分支上工作区干不干净，是将工作区与分支上最新提交的历史作比较的
 - 暂存区存的是要提交的文件的变化，当一个文件被stage后再发生修改，想要提交就必须再次add，暂存新的修改

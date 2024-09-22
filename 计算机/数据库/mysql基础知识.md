@@ -3,14 +3,15 @@
 mysql [-h 127.0.0.1] [-p 3306] -u root -p
 ```
 
+MySQL 是多用户系统，每个用户管理若干个**数据库**，各个用户之间的数据库不共享，每个数据库包含若干的**表**。
 
 # SQL语法分类
-| 分类 | 全称 | 说明 |
-| ---- | ---- | ---- |
-| DDL | Data Definition Language | 定义语言，定义数据库对象(数据库、表、字段) |
-| DML | Data Manipulation Language | 操作语言，对表中数据进行增删改 |
-| DQL | Data Query Language | 查询语言，查询表中数据 |
-| DCL | Data Control Language | 控制语言，创建用户，修改访问权限 |
+| 分类  | 全称                         | 说明                     |
+| --- | -------------------------- | ---------------------- |
+| DDL | Data Definition Language   | 定义语言，定义数据库对象(数据库、表、字段) |
+| DML | Data Manipulation Language | 操作语言，对表中数据进行增删改        |
+| DQL | Data Query Language        | 查询语言，查询表中数据            |
+| DCL | Data Control Language      | 控制语言，创建用户，修改访问权限       |
 DML和DQL操作对象只是表中数据，DDL操作对象可以为数据库，表，是容器。
 
 
@@ -166,8 +167,53 @@ SHOW VARIABLES LIKE 'datadir';
 
 如果你使用的是Linux系统，并且有足够的权限，你可以通过系统命令来查找MySQL进程，并查看其启动参数中是否包含了数据目录的路径。但这通常不如直接查看配置文件或MySQL命令行输出直接。
 
-### 注意：
+# 添加用户
+这份网址主要介绍了MySQL中创建用户的三种方法。以下是详细的知识点总结：
 
-- 如果你修改了MySQL的配置文件来更改数据目录，并且MySQL正在运行，你需要重启MySQL服务来使更改生效。
-- 在进行任何关于数据目录的更改之前，请确保你已经做好了充分的备份，以防止数据丢失。
-- 对于云数据库服务（如Amazon RDS、Google Cloud SQL等），你通常不能直接访问或更改底层的数据目录，因为这些服务抽象了这些细节并提供了一个管理接口来操作数据库。
+1. **MySQL创建用户的三种方式**：
+   - **使用CREATE USER语句**：
+     - **基本语法**：`CREATE USER 'username'@'host' IDENTIFIED BY 'password';`
+     - **参数说明**：
+       - `username`：要创建的用户名。
+       - `host`：指定用户可以从哪个主机登录，使用`localhost`为本地用户，`%`为任意远程主机。
+       - `password`：用户的登录密码，可以为空。
+     - **示例**：`create user 'dog'@'localhost' identified by '123456';`
+   - **在mysql.user表中添加用户**：
+     - **使用INSERT语句**：`insert into mysql.user(host, user, authentication_string) values ('hostname', 'username', password('password'));`
+     - **MySQL 5.7及以后**：使用`authentication_string`字段存储密码哈希。
+     - **注意**：需要FLUSH PRIVILEGES命令使新用户生效。
+     - **示例**：`insert into mysql.user(host, user, authentication_string) values ('localhost', 'cat', password('654321'));`
+   - **使用GRANT语句创建用户**：
+     - **基本语法**：`GRANT priv_type ON database.table TO 'username'@'host' IDENTIFIED BY 'password';`
+     - **功能**：不仅可以创建用户，还可以直接授予权限。
+     - **示例**：`GRANT SELECT, INSERT ON exampledb.* TO 'newuser'@'%' IDENTIFIED BY 'password';`
+
+# 修改用户密码
+```MySQL
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
+```
+
+
+# 用户权限管理
+## 授予权限
+```mysql
+GRANT SELECT, INSERT, UPDATE, DELETE ON hospital_db.* TO 'hospital'@'%';
+```
+给用户 hospital 在所有登录的主机上授予仅对 hospital_db 数据库的 select, insert, update, delete 权限。
+
+```mysql
+GRANT ALL PRIVILEGES ON hospital_db.* TO 'hospital'@'%';
+
+```
+授予所有权限。
+
+## 撤销权限
+```mysql
+REVOKE ALL PRIVILEGES ON hospital_db.* FROM 'hospital'@'%';
+
+REVODE SELECT, INSERT ON hospital_db.* FROM 'hospital'@'%';
+```
+
+>[!note]
+>修改权限后记得执行 `FLUSH PRIVILEGES` 进行刷新。
+

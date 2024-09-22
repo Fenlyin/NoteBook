@@ -35,5 +35,4 @@ When we run `make` again, the following set of steps happens:
 - `$^` 代表所有prerequisites。
 - `$(var)` 访问已定义的变量`var`
 
-
-
+![makeflow](makeflow.md)

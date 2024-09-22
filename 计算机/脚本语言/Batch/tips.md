@@ -29,3 +29,10 @@ $var=[Environment]::getEnvironmentVariable(name:str, host:Union("User"|"Machine"
 [Environment]::setEnvironmentVariable(name, value:str, host)
 ```
 两者都需要通过特殊方式访问环境变量，然后再局部创建和环境变量同名的局部变量。
+
+
+# Cmd 设置代理服务器
+一帮情况下，cmd 不会走系统代理，即使你开启了系统代理。可以设置环境变量来实现系统代理：
+- `http_proxy=http://127.0.0.1:7897`
+- `https_proxy=http://127.0.0.1:7897`
+

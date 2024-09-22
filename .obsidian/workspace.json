@@ -4,30 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "630e9c3ba8701121",
+        "id": "b179f64384c06957",
         "type": "tabs",
         "children": [
           {
-            "id": "721ca0cff3c37fe4",
+            "id": "81edbbf2089103ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "基础课程/离散数学.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b365df32726c0591",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机/工具/Markdown Strict Syntax.md",
-                "mode": "source",
+                "file": "杂记与随笔/TestPage.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -62,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "maven",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "基础课程/离散数学.md",
+                "file": "杂记与随笔/TestPage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -103,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "基础课程/离散数学.md",
+                "file": "杂记与随笔/TestPage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "基础课程/离散数学.md"
+                "file": "杂记与随笔/TestPage.md"
               }
             }
           }
@@ -152,8 +139,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,42 +147,52 @@
       "switcher:Open quick switcher": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "sample-plugin:Sample Plugin": false
+      "sample-plugin:Sample Plugin": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "721ca0cff3c37fe4",
+  "active": "81edbbf2089103ed",
   "lastOpenFiles": [
-    "基础课程/物理/电磁学.md",
-    "基础课程/物理/物理.md",
-    "杂记与随笔/电源适配器参数.md",
+    "键盘控制手机项目.md",
     "杂记与随笔/TestPage.md",
-    "计算机/脚本语言/Python/python基础知识.md",
-    "计算机/Linux/linux 软件级知识.md",
-    "计算机/工具/Markdown Strict Syntax.md",
-    "计算机/后端/Java/GUI.md",
-    "计算机/后端/Java/_resources/Component类的部分子类.md",
-    "计算机/后端/Java/_resources/Pasted image 20240609224409.png",
     "Test.md",
-    "Excalidraw/Test.md",
-    "计算机/后端/NodeJs/NPM.md",
-    "计算机/前端/BootStrap.md",
-    "杂记与随笔/字体.md",
-    "杂记与随笔/ANSI编码.md",
-    "基础课程/逻辑论.md",
-    "杂记与随笔/银行关系整理.md",
-    "杂记与随笔/转义字符.md",
-    "杂记与随笔/英制、公制转换.md",
-    "杂记与随笔/笔记规范.md",
-    "杂记与随笔/数据存储格式.md",
-    "杂记与随笔/参考文献引用格式.md",
-    "计算机/工具/Vim/vim高阶操作.md",
-    "基础课程/离散数学.md",
-    "3D/Shader 学习笔记.md",
-    "3D/MMD骨骼.md",
+    "计算机/硬件/Intel.md",
+    "AI绘图/基本概念.md",
+    "Web/Web 开发.md",
+    "Web/_resources",
+    "Web/SpringBoot.md",
+    "Web/_resources/Pasted image 20240909185357.png",
+    "基础课程/架构.md",
+    "基础课程/信号.md",
+    "学术/ChatGPT 数学建模Prompt.md",
+    "计算机/工具/BuildSystem/mvn.md",
+    "计算机/前端/Vue/基础知识.md",
+    "计算机/前端/Vue/Vue文件组成.md",
+    "计算机/数据库/mysql基础知识.md",
+    "计算机/工具/Git/git基本操作.md",
+    "计算机/Windows/Windows经验与技巧.md",
+    "AI绘图",
+    "计算机/Linux/linux 基础命令.md",
+    "计算机/前端/CSS/弹性盒子  flexbox.md",
+    "计算机/前端/CSS/属性.md",
+    "计算机/前端/CSS/css属性.md",
+    "计算机/前端/CSS/长度单位.md",
+    "计算机/数据库/link/link.md",
+    "计算机/数据库/mysql语句速查.md",
+    "计算机/前端/Javascript/基础知识.md",
+    "计算机/前端/Typescript/Base Sytax.md",
+    "基础课程/English/Grammer/从句.md",
+    "计算机/_resources/Pasted image 20240912123406.png",
+    "计算机/_resources/Pasted image 20240913154742.png",
+    "计算机/_resources/Pasted image 20240912123519.png",
+    "计算机/_resources/Pasted image 20240912123503.png",
+    "计算机/_resources/Pasted image 20240912123431.png",
+    "Web",
+    "计算机/工具/_resources/build system.png",
+    "计算机/后端/Java/_resources/Pasted image 20240609224409.png",
     "基础课程/物理",
     "计算机/_resources/cortex-m3.png",
     "latex_document_type.drawio.svg",
-    "计算机/_resources/Pasted image 20240823200805.png",
     "Untitled.canvas"
   ]
 }
